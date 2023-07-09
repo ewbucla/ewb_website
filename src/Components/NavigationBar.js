@@ -37,21 +37,21 @@ useEffect(() => {
   return (
     <div className="navigationbar">
       <div className="leftSide" id={openLinks && isScreenLessThan720 ? "open" : "close"}>
-        <img src={ewbLogo} /> 
+        <img src={ewbLogo} />
         <div className="hiddenLinks">
+        <Link to="/">Home</Link>
         <Link to="/aboutus">About us</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/joinus">Join us</Link>
-        <Link to="/donate">Donate</Link>
         </div>
       </div>
       <div className="rightSide">
+        <Link to="/">Home</Link>
         <Link to="/aboutus">About us</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/joinus">Join us</Link>
-        <Link to="/donate">Donate</Link>
         <button onClick={toggleNavbar}>
           <ReorderIcon />
         </button>
