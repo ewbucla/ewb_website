@@ -73,7 +73,7 @@
   width: 70px;
   margin: 5px;
 }
-@media only screen /*and (max-width: 1500px)*/ {
+@media only screen and (max-width: 1500px) {
   .navigationbar .rightSide a {
     width: 70px;
   }
@@ -82,7 +82,7 @@
   }
 }
 
-@media only screen and (max-width: 719px) {
+@media only screen and (max-width: 720px) {
   .navigationbar .rightSide a {
     display: none;
   }
