@@ -5,7 +5,7 @@ import '../CSS/JoinUs.css'
 
 function JoinUs() {
   return (
-    <div className="joinus" >
+    <div className="joinus">
       {/* <div className="bannerContainer" style={{ backgroundImage: `url(${BackgroundIMG})`}}>
         <h1>Engineers Without Borders</h1>
         <p> University of California, Los Angeles Student Chapter</p>
