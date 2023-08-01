@@ -9,6 +9,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    /* width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    height: 90vh; */
   }
 
   .joinus .headerContainer {
@@ -98,7 +106,7 @@
     color: #121619;
   }
   
-  .CurrentProjects {
+  .joinus .CurrentProjects {
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 50px;
@@ -108,20 +116,20 @@
 
   /* MENU ITEM STYLING */
   
-  .joinus .projectItem {
+  .projectItem {
     border-radius: 15px;
     width: 300px;
     height: 350px;
     margin: 20px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   }
-  .joinus .projectItem:hover {
+  .projectItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.2s ease-in;
     cursor: pointer;
   }
   
-  .joinus .projectItem div {
+  .projectItem div {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -131,19 +139,19 @@
     background-size: cover;
   }
   
-  .joinus .projectItem h1 {
+  .projectItem h1 {
     margin-left: 20px;
     text-decoration: none;
     color: black;
   }
 
-  .joinus .projectItem p {
+  .projectItem p {
     margin-left: 20px;
     text-decoration: none;
     color: black;
   }
 
-  .joinus .projectLink {
+  .projectLink {
     text-decoration: none;
   } 
 
