@@ -1,11 +1,11 @@
-.projects {
+ .projects {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    background-color: white;
   }
 
   .projects .projectsTitle {
@@ -14,7 +14,6 @@
     color: white;
     height: 100px;
     padding-top:50px;
-    padding-left: 100px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +22,6 @@
   }
   
   .projectsList {
-    width: 70vw;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -34,19 +32,14 @@
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 50px;
-    padding-left: 33%;
-    width: 100%;
   }
 
-  .OldProjects {
+ .OldProjects {
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 33%;
     font-size: 50px;
-    width: 100%;
   }
   
-  /* MENU ITEM STYLING */
   
   .projectItem {
     border-radius: 15px;
@@ -54,6 +47,7 @@
     height: 350px;
     margin: 20px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    background-color: white;
   }
   .projectItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
@@ -99,3 +93,4 @@
       grid-template-columns: 1fr;
     }
   }
+  
