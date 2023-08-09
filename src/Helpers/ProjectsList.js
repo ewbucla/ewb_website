@@ -22,7 +22,7 @@ export const ProjectsList = [
         id: "ethiopia",
         name: "Ethiopia",
         image: Ethiopia,
-        meetingTimes: "Every Wednesday 6-7pm",
+        meetingTimes: "Every Wednesday 6-7pm and once a month on Thursday at 9pm. What look like if this is a really really really really really really long comment?",
         description: "idk test",
     },
     {

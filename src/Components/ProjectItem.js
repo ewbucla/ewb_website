@@ -6,8 +6,10 @@ function ProjectItem({id, image, name, meetingTimes, description}) {
   };
   return (
     <div className="projectItem" onClick={divClick}>
-      <div style={{ backgroundImage: `url(${image})`}}>
-      {meetingTimes}
+      <div className="image" style={{ backgroundImage: `url(${image})`}}>
+        <div className="divText">
+        {meetingTimes}
+        </div>
       </div>
       <h1> {name} </h1>
       <p> {description} </p>

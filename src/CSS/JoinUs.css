@@ -107,6 +107,8 @@
     font-size: 50px;
     padding-left: 33%;
     width: 100%;
+    text-emphasis-style: open;
+    text-emphasis-color: rgba(16, 143, 216, 1);
     /* align-items: center; */
   }
 
@@ -139,10 +141,11 @@
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.2s ease-in;
     cursor: pointer;
+    height: 350px;
     /* box-shadow: inset 0 0 0 150px rgba(16, 143, 216, 0.8); */
   }
   
-  .projectItem div {
+  .projectItem .image {  /* .projectItem div { */
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -150,15 +153,31 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: transparent;
-    font-size: 25px;
   }
 
-  .projectItem div:hover {
-    box-shadow: inset 0 0 0 100px rgba(16, 143, 216, 0.8);
-    color: white;
+  .projectItem:hover > .image { /* when hovering anywhere over projectItem, apply below css to just projectItem div */
+    box-shadow: inset 0 0 0 150px rgba(16, 143, 216, 0.8);
     font-size: 20px;
+    height: 220px;
   }
+
+
+  .projectItem .divText {
+    font-size: 20px;
+    color: transparent;
+  }
+
+  .projectItem:hover .divText {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+  }
+  /* 
+  If the cube is directly inside the container: #container:hover > #cube { background-color: yellow; }  
+  If cube is next to (after containers closing tag) the container: #container:hover + #cube { background-color: yellow; }
+  If the cube is somewhere inside the container: #container:hover #cube { background-color: yellow; }
+  If the cube is a sibling of the container: #container:hover ~ #cube { background-color: yellow; }
+  */
   
   .projectItem h1 {
     margin-left: 20px;
@@ -268,6 +287,12 @@
     .joinus .projectsList {
       grid-template-columns: 1fr 1fr;
     }
+
+    .joinus p {
+      /* text-indent: 50px; */
+      margin-left: 120px; 
+      margin-right: 120px;
+    }
   }
   
   @media only screen and (max-width: 800px) {
@@ -275,3 +300,5 @@
       grid-template-columns: 1fr;
     }
   }
+  
+  /* add next part below the hoverable tiles*/

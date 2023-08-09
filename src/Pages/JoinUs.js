@@ -22,7 +22,7 @@ function JoinUs() {
             </a>
           </div> */}
           <div className="CurrentProjects">Current Projects</div>
-            <p>We are always looking for new members to join our projects! Click on each project to see their meeting times.</p>
+            <p>We are always looking for new members to join our projects! Hover on each project to see their meeting times.</p>
             <div className="projectsList">
               {ProjectsList.map((projectItem, key) => {
                 return (
