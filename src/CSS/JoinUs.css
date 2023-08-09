@@ -1,20 +1,50 @@
 .joinus {
-    width: 100%;
-    /* height: 90vh; */
-    height: auto;
-    display: flex;
-    /* justify-content: first baseline; */
-    justify-content: center;
-    /* align-items: center; */
-    align-items: center; 
-    flex-direction: column;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  }
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
-  .joinus .headerContainer {
+.banner {
+  position: relative;
+  width: 100%;
+  height: 190px; /* Adjust the height as needed */
+  background-image: url('../Media/TestBackground2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(16, 143, 216, 1), rgba(76, 187, 252, 0.2)); /* Gradient fade from left to right */
+  opacity: 0.8; /* Adjust the opacity as needed */
+}
+
+.banner-text {
+  position: absolute;
+  margin-left: 50px;
+  top: 50%;
+  font-size: 60px;
+  left: 20px;
+  transform: translateY(-50%);
+  color: white;
+  font-weight: 50;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
+}
+
+  /* .joinus .headerContainer {
     width: 100%;
     margin-left: 0px;
     box-shadow: inset 0 0 0 100px rgba(0,0,0,.2);
@@ -28,10 +58,9 @@
     font-weight: 50;
     margin-left: 50px;
     color: white;
-    /* background-color: white; */
     width: 300px;
     text-align: center;
-  }
+  } */
   
   .joinus .headerContainer p {
     padding: 0;
@@ -61,10 +90,11 @@
 
   .joinus .contactInfo {
     place-content: center;
+    width: 67%;
     color: white;
     border-radius: 15px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
-    background-color: rgba(0, 0, 0, .2);
+    background-color: #EAEAEA;
     place-self: center;
     /* min-width: 50%; */
     text-align: center;
@@ -76,10 +106,6 @@
     font-weight: lighter;
     color: white;
     border-radius: 15px;
-    /* place-content: center;
-    place-items: center;
-    place-self: center; */
-    /* max-width: 40%; */
   }
 
   .joinus .contactInfo p {
@@ -103,7 +129,7 @@
   
   .joinus .CurrentProjects {
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 50px;
     padding-left: 33%;
     width: 100%;
@@ -126,6 +152,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
+    margin-bottom: 30px;
   }
 
   /* MENU ITEM STYLING */
@@ -141,7 +168,6 @@
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.2s ease-in;
     cursor: pointer;
-    height: 350px;
     /* box-shadow: inset 0 0 0 150px rgba(16, 143, 216, 0.8); */
   }
   
@@ -158,18 +184,18 @@
   .projectItem:hover > .image { /* when hovering anywhere over projectItem, apply below css to just projectItem div */
     box-shadow: inset 0 0 0 150px rgba(16, 143, 216, 0.8);
     font-size: 20px;
-    height: 220px;
   }
 
 
   .projectItem .divText {
-    font-size: 20px;
+    font-size: 18px;
     color: transparent;
   }
 
   .projectItem:hover .divText {
-    font-size: 20px;
+    font-size: 18px;
     color: white;
+    font-weight: normal;
     padding: 10px;
   }
   /* 
@@ -195,6 +221,43 @@
   .projectLink {
     text-decoration: none;
   } 
+
+  .button-display{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+
+  .aesthetic-button {
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+     /* "Gill Sans", */
+    padding: 30px 70px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #108FD8, #0B5C8F);
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+  }
+  
+  .aesthetic-button:hover {
+    background: linear-gradient(45deg, #0B5C8F, #108FD8);
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Optional: Add more hover effects */
+  .aesthetic-button:active {
+    transform: scale(0.95);
+  }
 
   
   @media only screen and (max-width: 475px) { /*1045*/
