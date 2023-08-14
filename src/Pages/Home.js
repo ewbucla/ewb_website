@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 import BackgroundIMG from '../Media/EWBBG2.jpg'
 import '../CSS/Home.css'
 
+
 function Home() {
   return (
+
     <div className="home" style={{ backgroundImage: `url(${BackgroundIMG})`}}>
       <div className="headerContainer">
         <h1>Engineers Without Borders</h1>
@@ -17,5 +19,4 @@ function Home() {
   );
 
 }
-
 export default Home;
