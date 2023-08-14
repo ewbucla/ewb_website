@@ -30,7 +30,7 @@
   opacity: 0.8; /* Adjust the opacity as needed */
 }
 
-.banner-text {
+.joinus .banner-text {
   position: absolute;
   margin-left: 50px;
   top: 50%;
@@ -135,7 +135,6 @@
     width: 100%;
     text-emphasis-style: open;
     text-emphasis-color: rgba(16, 143, 216, 1);
-    /* align-items: center; */
   }
 
   .joinus .CurrentProjects p {
@@ -157,21 +156,20 @@
 
   /* MENU ITEM STYLING */
   
-  .projectItem {
+  .joinus .projectItem {
     border-radius: 15px;
     width: 220px;
     height: 300px;
     margin: 15px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   }
-  .projectItem:hover {
+  .joinus .projectItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.2s ease-in;
     cursor: pointer;
-    /* box-shadow: inset 0 0 0 150px rgba(16, 143, 216, 0.8); */
   }
   
-  .projectItem .image {  /* .projectItem div { */
+  .joinus .projectItem .image {  /* .projectItem div { */
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -181,18 +179,18 @@
     background-size: cover;
   }
 
-  .projectItem:hover > .image { /* when hovering anywhere over projectItem, apply below css to just projectItem div */
+  .joinus .projectItem:hover > .image { /* when hovering anywhere over projectItem, apply below css to just projectItem div */
     box-shadow: inset 0 0 0 150px rgba(16, 143, 216, 0.8);
     font-size: 20px;
   }
 
 
-  .projectItem .divText {
+  .joinus .projectItem .divText {
     font-size: 18px;
     color: transparent;
   }
 
-  .projectItem:hover .divText {
+  .joinus .projectItem:hover .divText {
     font-size: 18px;
     color: white;
     font-weight: normal;
@@ -205,14 +203,14 @@
   If the cube is a sibling of the container: #container:hover ~ #cube { background-color: yellow; }
   */
   
-  .projectItem h1 {
+  .joinus .projectItem h1 {
     margin-left: 20px;
     text-decoration: none;
     color: black;
     font-size: 25px;
   }
 
-  .projectItem p {
+  .joinus .projectItem p {
     margin-left: 20px;
     text-decoration: none;
     color: black;

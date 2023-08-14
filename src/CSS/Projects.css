@@ -60,27 +60,27 @@
     align-items: top;
   } */
   
-  .projectsList {
+  .projects .projectsList {
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
   }
 
-  .CurrentProjects {
+  .projects .CurrentProjects {
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 50px;
   }
 
- .OldProjects {
+ .projects .OldProjects {
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 50px;
   }
   
   
-  .projectItem {
+  .projects .projectItem {
     border-radius: 15px;
     width: 300px;
     height: 350px;
@@ -88,13 +88,13 @@
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
     background-color: white;
   }
-  .projectItem:hover {
+  .projects .projectItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
     transition: 0.2s ease-in;
     cursor: pointer;
   }
   
-  .projectItem div {
+  .projects .projectItem div {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
@@ -106,12 +106,12 @@
   
 
 
-  .projectItem h1 {
+  .projects .projectItem h1 {
     margin-left: 20px;
     text-decoration: none;
     color: black;
   }
-  .projectItem p {
+  .projects .projectItem p {
     margin-left: 20px;
     text-decoration: none;
     color: black;
@@ -122,13 +122,13 @@
   }
   
   @media only screen and (max-width: 1300px) {
-    .projectsList {
+    .projects .projectsList {
       grid-template-columns: 1fr 1fr;
     }
   }
   
   @media only screen and (max-width: 800px) {
-    .projectsList {
+    .projects .projectsList {
       grid-template-columns: 1fr;
     }
   }
