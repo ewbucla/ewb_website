@@ -4,6 +4,7 @@ import Footer from './Components/Footer';
 import Home from "./Pages/Home";
 import JoinUs from "./Pages/JoinUs";
 import Projects from "./Pages/Projects";
+import Contact from "./Pages/Contact"
 import {BrowserRouter as Router, Route,Routes } from "react-router-dom";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' exact element={<Home />}/>
         <Route path='/JoinUs' exact element={<JoinUs />}/>
         <Route path='/projects' exact element={<Projects />}/>
+        <Route path='/contact' exact element={<Contact />} />
       </Routes>
       <Footer />
     </Router>

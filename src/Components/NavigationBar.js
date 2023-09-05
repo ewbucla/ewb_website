@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ewbLogo from "../Media/UCLAEWBLogo.png";
+// import altLogo from "../Media/EWB.jpg";
 import { Link } from "react-router-dom"; 
 import ReorderIcon from '@mui/icons-material/Reorder';
 import CloseIcon from '@mui/icons-material/Close';
