@@ -4,7 +4,7 @@ import GuatemalaOld from "../Media/GuatemalaOld.jpg";
 
 export const OldProjectsList = [
     {
-        id: "ethiopia",
+        id: "ethiopiaold",
         name: "Ethiopia",
         image: EthiopiaOld,
         description: "Support for better education",

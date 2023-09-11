@@ -12,7 +12,7 @@ function Projects() {
     <div className="projects" >
       <div className="projectsTitleSection">
         <div className="projectsOverlay"></div>
-        <div className="projectsTitle" /*style={{ backgroundImage: `url(${ProjectsBG})`}}*/>Our Projects</div>
+        <div className="projectsTitle">Our Projects</div>
       </div>
         <div className="CurrentProjects">Current Projects</div>
         <div className="projectsList">

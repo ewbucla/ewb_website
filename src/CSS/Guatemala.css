@@ -1,0 +1,61 @@
+.guatemalaTitleSection {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    background-image: url('../Media/ProjectsBG.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .guatemalaOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(16, 143, 216, 1), rgba(76, 187, 252, 0.2));
+    opacity: 0.8;
+  }
+  
+  .guatemalaTitle {
+    position: absolute;
+    margin-left: 50px;
+    top: 50%;
+    font-size: 60px;
+    left: 20px;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: 50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+  }
+
+  
+  .guatemalaTitle2 {
+    position: absolute;
+    margin-left: 50px;
+    top: 80%;
+    font-size: 30px;
+    left: 20px;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: 50;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+  }
+  
+  .guatemala .sectionTitles{
+    padding-left: 50px;
+  }
+
+  .guatemala .sectionSubTitles{
+    font-size: 25px;
+    padding-left: 50px;
+  }
+  
+  .guatemala .sectionParagraphs{
+    padding-left: 50px;
+    padding-right: 50px;
+  }

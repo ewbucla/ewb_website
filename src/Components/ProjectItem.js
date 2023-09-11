@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ProjectItem({id, image, name, meetingTimes, description}) {
+function ProjectItem({id, image, name, major, meetingTimes, description}) {
   const divClick = () => {  // incase ever need to add on click feature
     console.log("you just clicked");
   };
@@ -13,6 +13,7 @@ function ProjectItem({id, image, name, meetingTimes, description}) {
       </div>
       <h1> {name} </h1>
       <p> {description} </p>
+      <p> {major} </p>
     </div>
   )
 }
