@@ -12,6 +12,7 @@ import Nepal from "./Pages/Nepal.js";
 import EthiopiaOld from "./Pages/EthiopiaOld.js";
 import Guatemala from "./Pages/Guatemala.js";
 import Thailand from "./Pages/Thailand.js";
+import AboutUs from "./Pages/AboutUs.js";
 import {BrowserRouter as Router, Route,Routes } from "react-router-dom";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path='/projects/ethiopiaold' exact element={<EthiopiaOld />} />
         <Route path='/projects/guatemala' exact element={<Guatemala />} />
         <Route path='/projects/thailand' exact element={<Thailand />} />
+        <Route path='/aboutus' exact element={<AboutUs />} />
       </Routes>
       <Footer />
     </Router>

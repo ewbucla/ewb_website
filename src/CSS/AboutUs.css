@@ -1,0 +1,126 @@
+.aboutus{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.aboutusTitleSection {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    background-image: url('../Media/ProjectsBG.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .aboutusOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(16, 143, 216, 1), rgba(76, 187, 252, 0.2));
+    opacity: 0.8;
+  }
+  
+  .aboutusTitle {
+    position: absolute;
+    margin-left: 50px;
+    top: 50%;
+    font-size: 60px;
+    left: 20px;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: 50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+  }
+  
+  .aboutusTitle2 {
+    position: absolute;
+    margin-left: 50px;
+    top: 80%;
+    font-size: 30px;
+    left: 20px;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: 50;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+  }
+  
+  .aboutus .mainTitle{
+    font-weight: normal;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    /* width: 100%; */
+    text-emphasis-style: open;
+    text-emphasis-color: rgba(16, 143, 216, 1);
+    /* padding-left: 50px; */
+  }
+
+  .aboutus .sectionTitles{
+    font-weight: 200;
+    /* padding-left: 50px; */
+  }
+  
+  .aboutus .sectionParagraphs{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .aboutus .BoardList {
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      place-items: center;
+    }
+  
+    .aboutus .projectItem {
+      border-radius: 15px;
+      width: 220px;
+      height: 380px;
+      margin: 15px;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+      background-color: white;
+    }
+    
+    .aboutus .projectItem div {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 100%;
+      height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+  
+  
+    .aboutus .projectItem h1 {
+      margin-left: 20px;
+      text-decoration: none;
+      color: black;
+    }
+
+    .aboutus .projectItem h2 {
+      margin-left: 20px;
+      text-decoration: none;
+      color:  rgba(16, 143, 216, 1);
+      font-size: 15px;
+    }
+    .aboutus .projectItem p {
+      margin-left: 20px;
+      text-decoration: none;
+      color: black;
+      margin-bottom: 5px;
+      margin-top: 0;
+      font-size: 15px;
+    }
+  
+  
