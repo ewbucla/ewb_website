@@ -1,3 +1,10 @@
+.nicaragua{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
 .nicaraguaTitleSection {
   position: relative;
   width: 100%;
@@ -42,21 +49,27 @@
   font-weight: 50;
   /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  
+}
+
+.nicaragua .mainTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
 }
 
 .nicaragua .sectionTitles{
-  padding-left: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
+
 .nicaragua .sectionParagraphs{
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .nicaragua .BoardList {
-    width: 50px;
-    padding-left: 35px;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -98,3 +111,91 @@
 
   }
 
+  @media only screen and (max-width: 540px) {
+    .nicaragua .BoardList {
+      grid-template-columns: 1fr;
+    }
+
+    .nicaraguaTitle2 {
+      position: absolute;
+      margin-left: 50px;
+      top: 80%;
+      font-size: 25px;
+      left: 20px;
+      transform: translateY(-50%);
+      color: white;
+      font-weight: 50;
+      /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    }
+
+  }
+
+  @media only screen and (max-width: 410px) {
+
+    .nicaraguaTitle {
+      margin-left: 10px;
+    }
+
+    .nicaraguaTitle2 {
+      margin-left: 10px;
+    }
+
+    .nicaragua .BoardList {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .nicaragua .sectionParagraphs{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .nicaragua .BoardList {
+      padding-left: 0;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      place-items: center;
+    }
+
+    .nicaragua .projectItem {
+      border-radius: 15px;
+      width: 165px;
+      height: 285px;
+      margin: 15px;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+      background-color: white;
+    }
+    
+    .nicaragua .projectItem div {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 100%;
+      height: 150px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .nicaragua .projectItem h1 {
+      margin-left: 15px;
+      text-decoration: none;
+      color: black;
+      font-size: 24px;
+    }
+    .nicaragua .projectItem p {
+      margin-left: 15px;
+      text-decoration: none;
+      color: black;
+      margin-bottom: 5px;
+      margin-top: 0;
+      font-size: 15px;
+    }
+
+  }
+
+  @media only screen and (max-width: 388px) {
+    .nicaragua .BoardList {
+      grid-template-columns: 1fr;
+    }
+  }

@@ -1,61 +1,201 @@
+.guatemala{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
 .guatemalaTitleSection {
-    position: relative;
+  position: relative;
+  width: 100%;
+  height: 190px;
+  background-image: url('../Media/ProjectsBG.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.guatemalaOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(16, 143, 216, 1), rgba(76, 187, 252, 0.2));
+  opacity: 0.8;
+}
+
+.guatemalaTitle {
+  position: absolute;
+  margin-left: 50px;
+  top: 50%;
+  font-size: 60px;
+  left: 20px;
+  transform: translateY(-50%);
+  color: white;
+  font-weight: 50;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
+}
+
+.guatemalaTitle2 {
+  position: absolute;
+  margin-left: 50px;
+  top: 80%;
+  font-size: 30px;
+  left: 20px;
+  transform: translateY(-50%);
+  color: white;
+  font-weight: 50;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.guatemala .mainTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.guatemala .sectionTitles{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.guatemala .sectionParagraphs{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.guatemala .BoardList {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
+
+  .guatemala .projectItem {
+    border-radius: 15px;
+    width: 220px;
+    height: 340px;
+    margin: 15px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    background-color: white;
+  }
+  
+  .guatemala .projectItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     width: 100%;
-    height: 190px;
-    background-image: url('../Media/ProjectsBG.jpg');
-    background-size: cover;
+    height: 200px;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
-  .guatemalaOverlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, rgba(16, 143, 216, 1), rgba(76, 187, 252, 0.2));
-    opacity: 0.8;
+
+
+  .guatemala .projectItem h1 {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
   }
-  
-  .guatemalaTitle {
-    position: absolute;
-    margin-left: 50px;
-    top: 50%;
-    font-size: 60px;
-    left: 20px;
-    transform: translateY(-50%);
-    color: white;
-    font-weight: 50;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    
+  .guatemala .projectItem p {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 0;
+
   }
 
-  
-  .guatemalaTitle2 {
-    position: absolute;
-    margin-left: 50px;
-    top: 80%;
-    font-size: 30px;
-    left: 20px;
-    transform: translateY(-50%);
-    color: white;
-    font-weight: 50;
-    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    
-  }
-  
-  .guatemala .sectionTitles{
-    padding-left: 50px;
+  @media only screen and (max-width: 540px) {
+    .guatemala .BoardList {
+      grid-template-columns: 1fr;
+    }
+
+    .guatemalaTitle2 {
+      position: absolute;
+      margin-left: 50px;
+      top: 80%;
+      font-size: 25px;
+      left: 20px;
+      transform: translateY(-50%);
+      color: white;
+      font-weight: 50;
+      /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    }
+
   }
 
-  .guatemala .sectionSubTitles{
-    font-size: 25px;
-    padding-left: 50px;
+  @media only screen and (max-width: 410px) {
+
+    .guatemalaTitle {
+      margin-left: 10px;
+    }
+
+    .guatemalaTitle2 {
+      margin-left: 10px;
+    }
+
+    .guatemala .BoardList {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .guatemala .sectionParagraphs{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .guatemala .BoardList {
+      padding-left: 0;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      place-items: center;
+    }
+
+    .guatemala .projectItem {
+      border-radius: 15px;
+      width: 165px;
+      height: 285px;
+      margin: 15px;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+      background-color: white;
+    }
+    
+    .guatemala .projectItem div {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 100%;
+      height: 150px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .guatemala .projectItem h1 {
+      margin-left: 15px;
+      text-decoration: none;
+      color: black;
+      font-size: 24px;
+    }
+    .guatemala .projectItem p {
+      margin-left: 15px;
+      text-decoration: none;
+      color: black;
+      margin-bottom: 5px;
+      margin-top: 0;
+      font-size: 15px;
+    }
+
   }
-  
-  .guatemala .sectionParagraphs{
-    padding-left: 50px;
-    padding-right: 50px;
+
+  @media only screen and (max-width: 388px) {
+    .guatemala .BoardList {
+      grid-template-columns: 1fr;
+    }
   }

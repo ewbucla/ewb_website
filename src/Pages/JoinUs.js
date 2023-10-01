@@ -15,7 +15,7 @@ function JoinUs() {
             <div className='banner-text'>Join Us</div>
           </div>
           <div className="CurrentProjects">Current Projects</div>
-          <p>We are always looking for new members to join our projects! Hover on each project to see their meeting times.</p>
+          <p className="LookingForMembers">We are always looking for new members to join our projects! Hover or click on each project to see their meeting times.</p>
           <div className="projectsList">
             {ProjectsList.map((projectItem, key) => {
               return (
@@ -32,11 +32,11 @@ function JoinUs() {
             })}
           </div>
           <div className='button-display'>
-            <Link to="https://www.google.com/search?q=meme+computer+scienc&tbm=isch&ved=2ahUKEwj9terfubqAAxUoPEQIHYDtDP0Q2-cCegQIABAA&oq=meme+computer+scienc&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB46CggAEIoFELEDEEM6CAgAEIAEELEDOgcIABCKBRBDUN8EWPkVYLYXaABwAHgBgAHbAogBuRWSAQc1LjQuNi4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=8nLIZP30Naj4kPIPgNuz6A8&bih=866&biw=1512#imgrc=OZaViWrueAy__M">
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeIhzFkpkdqqEvi5gAMj6q7BUgeWu3tRAgUpRomvsV7rSftNQ/viewform">
               <button className="aesthetic-button" >Join EWB Mailing List </button>
             </Link>
-            <Link to="https://www.google.com/search?q=meme+computer+scienc&tbm=isch&ved=2ahUKEwj9terfubqAAxUoPEQIHYDtDP0Q2-cCegQIABAA&oq=meme+computer+scienc&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB46CggAEIoFELEDEEM6CAgAEIAEELEDOgcIABCKBRBDUN8EWPkVYLYXaABwAHgBgAHbAogBuRWSAQc1LjQuNi4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=8nLIZP30Naj4kPIPgNuz6A8&bih=866&biw=1512#imgrc=OZaViWrueAy__M">
-              <button className="aesthetic-button" >Join EWB Discord </button>
+            <Link to="https://tinyurl.com/ewbucladiscord">
+              <button className="aesthetic-button" >Join EWB Discord Server</button>
             </Link>
           </div>
         </div>

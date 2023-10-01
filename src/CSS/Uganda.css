@@ -1,4 +1,4 @@
-.ugandaTitleSection {
+/* .ugandaTitleSection {
     position: relative;
     width: 100%;
     height: 190px;
@@ -40,7 +40,6 @@
     transform: translateY(-50%);
     color: white;
     font-weight: 50;
-    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     
   }
@@ -98,4 +97,298 @@
   
     }
   
+    @media only screen and (max-width: 540px) {
+      .uganda .BoardList {
+        grid-template-columns: 1fr;
+      }
   
+      .ugandaTitle2 {
+        position: absolute;
+        margin-left: 50px;
+        top: 80%;
+        font-size: 25px;
+        left: 20px;
+        transform: translateY(-50%);
+        color: white;
+        font-weight: 50;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      }
+  
+    }
+  
+    @media only screen and (max-width: 410px) {
+  
+      .ugandaTitle {
+        margin-left: 10px;
+      }
+  
+      .ugandaTitle2 {
+        margin-left: 10px;
+      }
+  
+      .uganda .BoardList {
+        grid-template-columns: 1fr 1fr;
+      }
+  
+      .uganda .sectionTitles{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+  
+      .uganda .sectionParagraphs{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+  
+      .uganda .BoardList {
+        width: 50px;
+        padding-left: 0;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+      }
+  
+      .uganda .projectItem {
+        border-radius: 15px;
+        width: 165px;
+        height: 285px;
+        margin: 15px;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+        background-color: white;
+      }
+      
+      .uganda .projectItem div {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 100%;
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+  
+      .uganda .projectItem h1 {
+        margin-left: 15px;
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+      }
+      .uganda .projectItem p {
+        margin-left: 15px;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 5px;
+        margin-top: 0;
+        font-size: 15px;
+      }
+  
+    }
+  
+    @media only screen and (max-width: 388px) {
+      .uganda .BoardList {
+        grid-template-columns: 1fr;
+      }
+    } */
+
+    .uganda{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; 
+    }
+    
+    .ugandaTitleSection {
+      position: relative;
+      width: 100%;
+      height: 190px;
+      background-image: url('../Media/ProjectsBG.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .ugandaOverlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to right, rgba(16, 143, 216, 1), rgba(76, 187, 252, 0.2));
+      opacity: 0.8;
+    }
+    
+    .ugandaTitle {
+      position: absolute;
+      margin-left: 50px;
+      top: 50%;
+      font-size: 60px;
+      left: 20px;
+      transform: translateY(-50%);
+      color: white;
+      font-weight: 50;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      
+    }
+    
+    .ugandaTitle2 {
+      position: absolute;
+      margin-left: 50px;
+      top: 80%;
+      font-size: 30px;
+      left: 20px;
+      transform: translateY(-50%);
+      color: white;
+      font-weight: 50;
+      /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    }
+    
+    .uganda .mainTitle{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; 
+    }
+    
+    .uganda .sectionTitles{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    
+    
+    .uganda .sectionParagraphs{
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    
+    .uganda .BoardList {
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+      }
+    
+      .uganda .projectItem {
+        border-radius: 15px;
+        width: 220px;
+        height: 340px;
+        margin: 15px;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+        background-color: white;
+      }
+      
+      .uganda .projectItem div {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 100%;
+        height: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+    
+    
+      .uganda .projectItem h1 {
+        margin-left: 20px;
+        text-decoration: none;
+        color: black;
+      }
+      .uganda .projectItem p {
+        margin-left: 20px;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 5px;
+        margin-top: 0;
+    
+      }
+    
+      @media only screen and (max-width: 540px) {
+        .uganda .BoardList {
+          grid-template-columns: 1fr;
+        }
+    
+        .ugandaTitle2 {
+          position: absolute;
+          margin-left: 50px;
+          top: 80%;
+          font-size: 25px;
+          left: 20px;
+          transform: translateY(-50%);
+          color: white;
+          font-weight: 50;
+          /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        }
+    
+      }
+    
+      @media only screen and (max-width: 410px) {
+    
+        .ugandaTitle {
+          margin-left: 10px;
+        }
+    
+        .ugandaTitle2 {
+          margin-left: 10px;
+        }
+    
+        .uganda .BoardList {
+          grid-template-columns: 1fr 1fr;
+        }
+    
+        .uganda .sectionParagraphs{
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+    
+        .uganda .BoardList {
+          padding-left: 0;
+          height: auto;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          place-items: center;
+        }
+    
+        .uganda .projectItem {
+          border-radius: 15px;
+          width: 165px;
+          height: 285px;
+          margin: 15px;
+          box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+          background-color: white;
+        }
+        
+        .uganda .projectItem div {
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+          width: 100%;
+          height: 150px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+    
+        .uganda .projectItem h1 {
+          margin-left: 15px;
+          text-decoration: none;
+          color: black;
+          font-size: 24px;
+        }
+        .uganda .projectItem p {
+          margin-left: 15px;
+          text-decoration: none;
+          color: black;
+          margin-bottom: 5px;
+          margin-top: 0;
+          font-size: 15px;
+        }
+    
+      }
+    
+      @media only screen and (max-width: 388px) {
+        .uganda .BoardList {
+          grid-template-columns: 1fr;
+        }
+      }

@@ -1,13 +1,13 @@
 import JasonHeadshot from "../Media/JasonHeadshot.jpg";
-import BlankProfile from "../Media/BlankProfile.jpeg";
+import BlankProfile from "../Media/MissyHeadshot.jpg";
 
 export const NepalBoard = [
     {
         id: "jason",
         name: "Jason",
         image: JasonHeadshot,
-        description: "2nd Year",
-        major: "Insert major",
+        description: "3rd Year",
+        major: "Mechanical Engineering",
     },
     {
         id: "missy",

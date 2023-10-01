@@ -8,14 +8,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
 }
 
 .banner {
   position: relative;
   width: 100%;
   height: 190px; /* Adjust the height as needed */
-  background-image: url('../Media/TestBackground2.jpg');
+  background-image: url('../Media/ProjectsBG.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -43,24 +43,6 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   
 }
-
-  /* .joinus .headerContainer {
-    width: 100%;
-    margin-left: 0px;
-    box-shadow: inset 0 0 0 100px rgba(0,0,0,.2);
-  }
-  
-  .joinus .headerContainer h1 {
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
-    height: 100px;
-    font-weight: 50;
-    margin-left: 50px;
-    color: white;
-    width: 300px;
-    text-align: center;
-  } */
   
   .joinus .headerContainer p {
     padding: 0;
@@ -146,7 +128,7 @@
   }
 
   .joinus .projectsList {
-    width: 70vw;
+    /* width: 70vw; */
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -158,22 +140,23 @@
   
   .joinus .projectItem {
     border-radius: 15px;
-    width: 220px;
-    height: 300px;
-    margin: 15px;
+    width: 220px; /*220*/
+    height: 380px; /*300*/
+    margin: 20px;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   }
+
   .joinus .projectItem:hover {
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-    transition: 0.2s ease-in;
+    /* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5); */
+    transition: 0.05s ease-in;
     cursor: pointer;
   }
   
-  .joinus .projectItem .image {  /* .projectItem div { */
+  .joinus .projectItem .image {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
-    height: 170px;
+    height: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -184,25 +167,19 @@
     font-size: 20px;
   }
 
-
   .joinus .projectItem .divText {
     font-size: 18px;
     color: transparent;
   }
 
   .joinus .projectItem:hover .divText {
-    font-size: 18px;
+    font-size: 25px;
     color: white;
     font-weight: normal;
-    padding: 10px;
+    padding-top: 87.5px;
+    text-align: center;
   }
-  /* 
-  If the cube is directly inside the container: #container:hover > #cube { background-color: yellow; }  
-  If cube is next to (after containers closing tag) the container: #container:hover + #cube { background-color: yellow; }
-  If the cube is somewhere inside the container: #container:hover #cube { background-color: yellow; }
-  If the cube is a sibling of the container: #container:hover ~ #cube { background-color: yellow; }
-  */
-  
+
   .joinus .projectItem h1 {
     margin-left: 20px;
     text-decoration: none;
@@ -211,10 +188,11 @@
   }
 
   .joinus .projectItem p {
-    margin-left: 20px;
+    margin: 20px;
     text-decoration: none;
-    color: black;
-  }
+    color: rgb(87, 87, 87);
+    font-size: 16px;
+    }
 
   .projectLink {
     text-decoration: none;
@@ -231,11 +209,11 @@
     margin-left: 35px;
     margin-right: 35px;
     font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-     /* "Gill Sans", */
-    padding: 30px 70px;
     border: none;
     border-radius: 25px;
     background: linear-gradient(45deg, #108FD8, #0B5C8F);
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: white;
     font-size: 20px;
     font-weight: normal;
@@ -244,6 +222,10 @@
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+    width: 200px;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
   }
   
   .aesthetic-button:hover {
@@ -252,114 +234,218 @@
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
   }
   
-  /* Optional: Add more hover effects */
   .aesthetic-button:active {
     transform: scale(0.95);
   }
+ 
+  @media only screen and (max-width: 555px) {
 
-  
-  @media only screen and (max-width: 475px) { /*1045*/
-    .joinus {
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .joinus .headerContainer {
-      margin-left: 0px;
-      border-radius: 10px;
-      padding: 10px;
-      width: 80%;
-      display: flex;
-      justify-content: center;
-      align-items: left;
-      flex-direction: column;
-      background-color: transparent;
+    .aesthetic-button {
+      display: inline-block;
+      margin-left: 25px;
+      margin-right: 25px;
+      font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      /* padding: 10px 40px; */
+      border: none;
+      border-radius: 25px;
+      background: linear-gradient(45deg, #108FD8, #0B5C8F);
+      padding-top: 20px;
+      padding-bottom: 20px;
       color: white;
-    }
-  
-    .joinus .headerContainer h1 {
-      font-size: 40px;
-      height: 30px;
-      color: white;
-    }
-  
-    .joinus .headerContainer p {
-      font-size: 20px;
-      color: white;
-      padding-top: 40px;
-    }
-  
-    .joinus .headerContainer button {
-      background-color: white;
-      color: #121619;
-      margin-bottom: 30px;
-    }
-  
-    .joinus .headerContainer button:hover {
-      background-color: rgb(225, 225, 225);
-      color: #121619;
-    }
-  }
-
-  @media only screen and (max-width: 351px) { 
-    .joinus {
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .joinus .headerContainer {
-      margin-left: 0px;
-      border-radius: 10px;
-      padding: 10px;
-      width: 80%;
-      display: flex;
-      justify-content: center;
-      align-items: left;
-      flex-direction: column;
-      background-color: transparent;
-      color: white;
-    }
-  
-    .joinus .headerContainer h1 {
-      font-size: 30px;
-      height: 30px;
-      color: white;
-    }
-  
-    .joinus .headerContainer p {
       font-size: 15px;
-      color: white;
-      padding-top: 40px;
-    }
-  
-    .joinus .headerContainer button {
-      background-color: white;
-      color: #121619;
-      margin-bottom: 30px;
-    }
-  
-    .joinus .headerContainer button:hover {
-      background-color: rgb(225, 225, 225);
-      color: #121619;
+      font-weight: normal;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+      width: 150px;
+      overflow-wrap: break-word;  
+      word-wrap: break-word; 
+      word-break: break-word;
     }
   }
 
-  @media only screen and (max-width: 1300px) {
+  @media only screen and (max-width: 410px) { 
+
+    .joinus .banner-text {
+      position: absolute;
+      margin-left: 50px;
+      top: 50%;
+      font-size: 50px;
+      left: 20px;
+      transform: translateY(-50%);
+      color: white;
+      font-weight: 50;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      
+    }
+
+    .aesthetic-button {
+      display: inline-block;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      border: none;
+      border-radius: 25px;
+      background: linear-gradient(45deg, #108FD8, #0B5C8F);
+      color: white;
+      font-size: 15px;
+      font-weight: normal;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+      width: 150px;
+      overflow-wrap: break-word;  
+      word-wrap: break-word; 
+      word-break: break-word;
+    }
+
+    .joinus .projectItem {
+      border-radius: 15px;
+      width: 165px;
+      height: 285px;
+      margin: 15px;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    }
+  
+    .joinus .projectItem:hover {
+      transition: 0.05s ease-in;
+      cursor: pointer;
+    }
+    
+    .joinus .projectItem .image {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 100%;
+      height: 127.5px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .joinus .projectItem:hover > .image { 
+      box-shadow: inset 0 0 0 150px rgba(16, 143, 216, 0.8);
+      font-size: 20px;
+    }
+  
+    .joinus .projectItem .divText {
+      font-size: 18px;
+      color: transparent;
+    }
+  
+    .joinus .projectItem:hover .divText {
+      font-size: 18.75px;
+      color: white;
+      font-weight: normal;
+      padding-top: 54.375px;
+      text-align: center;
+    }
+    
+    .joinus .projectItem h1 {
+      margin-left: 18.75px;
+      text-decoration: none;
+      color: black;
+      font-size: 18.75px;
+    }
+  
+    .joinus .projectItem p {
+      margin: 18.75px;
+      text-decoration: none;
+      color: rgb(87, 87, 87);
+      font-size: 12px;
+    }
+
+    .joinus .CurrentProjects {
+      padding-top: 30px;
+      padding-bottom: 10px;
+      font-size: 40px;
+      /* padding-left: 50px; */
+      /* width: 100%; */
+      text-emphasis-style: open;
+      text-emphasis-color: rgba(16, 143, 216, 1);
+    }
+
+  }
+
+  @media only screen and (max-width: 365px){
+
+    .joinus .CurrentProjects {
+      padding-top: 30px;
+      padding-bottom: 10px;
+      font-size: 40px;
+      /* padding-left: 50px; */
+      /* width: 100%; */
+      text-emphasis-style: open;
+      text-emphasis-color: rgba(16, 143, 216, 1);
+    }
+
+  }
+  
+  @media only screen and (max-width: 1000px) {
     .joinus .projectsList {
       grid-template-columns: 1fr 1fr;
     }
 
-    .joinus p {
-      /* text-indent: 50px; */
-      margin-left: 120px; 
-      margin-right: 120px;
+    .joinus .LookingForMembers {
+      margin-left: 100px; 
+      margin-right: 100px;
     }
   }
-  
-  @media only screen and (max-width: 800px) {
+
+  @media only screen and (max-width: 600px) {
+    .joinus .projectsList {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .joinus .LookingForMembers {
+      margin-left: 50px; 
+      margin-right: 50px;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 700px) {
     .joinus .projectsList {
       grid-template-columns: 1fr;
     }
   }
-  
-  /* add next part below the hoverable tiles*/
+
+
+  @media only screen and (max-width: 410px) {
+    .joinus .projectsList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media only screen and (max-width: 389px) {
+    .joinus .projectsList {
+      grid-template-columns: 1fr;
+    }
+
+    .aesthetic-button {
+      display: inline-block;
+      margin-left: 20px;
+      margin-right: 20px;
+      font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      border: none;
+      border-radius: 25px;
+      background: linear-gradient(45deg, #108FD8, #0B5C8F);
+      color: white;
+      font-size: 12px;
+      font-weight: normal;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+      width: 120px;
+      overflow-wrap: break-word;  
+      word-wrap: break-word; 
+      word-break: break-word;
+    }
+  }

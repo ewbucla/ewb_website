@@ -1,5 +1,5 @@
 import SurajHeadshot from "../Media/SurajHeadshot.jpg";
-import BlankProfile from "../Media/BlankProfile.jpeg";
+import BlankProfile from "../Media/AliHeadshot.jpg";
 
 export const NicaraguaBoard = [
     {

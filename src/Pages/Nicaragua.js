@@ -11,7 +11,7 @@ function Nicaragua() {
           <div className="nicaraguaTitle">Nicaragua</div>
           <div className="nicaraguaTitle2">Sanitation, Education & Development</div>
         </div>
-        <h1 className="sectionTitles">Project Leads</h1>
+        <h1 className="mainTitle">Project Leads</h1>
         <div className="BoardList">
           {NicaraguaBoard.map((projectItem, key) => {
             return (

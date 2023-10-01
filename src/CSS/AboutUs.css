@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center; 
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
 }
 
 .aboutusTitleSection {
@@ -54,31 +55,30 @@
   
   .aboutus .mainTitle{
     font-weight: normal;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
     padding-top: 30px;
     padding-bottom: 10px;
     font-size: 50px;
-    /* width: 100%; */
     text-emphasis-style: open;
     text-emphasis-color: rgba(16, 143, 216, 1);
-    /* padding-left: 50px; */
   }
 
   .aboutus .sectionTitles{
     font-weight: 200;
-    /* padding-left: 50px; */
   }
   
   .aboutus .sectionParagraphs{
-    padding-left: 50px;
-    padding-right: 50px;
+    /* padding-left: 120px;
+    padding-right: 120px; */
+    padding-left: 10%;
+    padding-right: 10%;
   }
   
   .aboutus .BoardList {
       height: auto;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      place-items: center;
+      
     }
   
     .aboutus .projectItem {
@@ -106,6 +106,7 @@
       margin-left: 20px;
       text-decoration: none;
       color: black;
+      font-size: 32px;
     }
 
     .aboutus .projectItem h2 {
@@ -122,5 +123,132 @@
       margin-top: 0;
       font-size: 15px;
     }
+
+    @media only screen and (max-width: 1000px) {
   
+      .aboutus .sectionParagraphs{
+        margin-left: 70px; 
+        margin-right: 70px;
+      }
+    }
   
+    @media only screen and (max-width: 600px) {
+  
+      .aboutus .sectionParagraphs{
+        margin-left: 10px; 
+        margin-right: 10px;
+      }
+    }
+
+
+
+    @media only screen and (max-width: 1300px) {
+      .aboutus .BoardList {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+    }
+
+
+  
+    @media only screen and (max-width: 1000px) {
+      .aboutus .BoardList {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+
+    @media only screen and (max-width: 750px) {
+
+      .aboutus .BoardList {
+        grid-template-columns: 1fr 1fr;
+      }  
+    }
+
+    @media only screen and (max-width: 490px) {
+      .aboutus .BoardList {
+        grid-template-columns: 1fr;
+      }  
+      .aboutus .sectionParagraphs{
+        padding-left: 0; 
+        padding-right: 0;
+      }
+    }
+
+    @media only screen and (max-width: 410px) {
+
+      .aboutus .sectionParagraphs{
+        margin-left: 30px; 
+        margin-right: 30px;
+      }
+
+      .aboutus .mainTitle{
+        font-weight: normal;
+        /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 40px;
+        text-emphasis-style: open;
+        text-emphasis-color: rgba(16, 143, 216, 1);
+      }
+  
+      .aboutus .sectionParagraphs{
+        padding-left: 0; 
+        padding-right: 0;
+      }
+
+      .aboutus .BoardList {
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+      }
+    
+      .aboutus .projectItem {
+        border-radius: 15px;
+        width: 165px;
+        height: 285px;
+        margin: 15px;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+        background-color: white;
+      }
+      
+      .aboutus .projectItem div {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 100%;
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+    
+    
+      .aboutus .projectItem h1 {
+        margin-left: 20px;
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+      }
+  
+      .aboutus .projectItem h2 {
+        margin-left: 20px;
+        text-decoration: none;
+        color:  rgba(16, 143, 216, 1);
+        font-size: 11.25px;
+      }
+      .aboutus .projectItem p {
+        margin-left: 20px;
+        text-decoration: none;
+        color: black;
+        margin-bottom: 5px;
+        margin-top: 0;
+        font-size: 11.25px;
+      }
+
+    }
+
+    @media only screen and (max-width: 371px) {
+      .aboutus .BoardList {
+        grid-template-columns: 1fr;
+      }  
+    }
