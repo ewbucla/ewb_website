@@ -61,8 +61,14 @@
   .projects .projectsList {
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     place-items: center;
+  }
+  .projects .subtitle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
   }
 
   .projects .CurrentProjects {

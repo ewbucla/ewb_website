@@ -1,5 +1,6 @@
 import React from 'react';
-import { ProjectsList } from '../Helpers/ProjectsList';
+import { EWBList } from '../Helpers/EWBList';
+import { EBWList } from '../Helpers/EBWList';
 import { OldProjectsList } from '../Helpers/OldProjectsList';
 import ProjectItem from '../Components/ProjectItem';
 import ProjectsBG from '../Media/ProjectsBG.jpg';
@@ -15,8 +16,24 @@ function Projects() {
         <div className="projectsTitle">Our Projects</div>
       </div>
         <div className="CurrentProjects">Current Projects</div>
+        <div className="subtitle">Projects Under EWB</div>
         <div className="projectsList">
-          {ProjectsList.map((projectItem, key) => {
+          {EWBList.map((projectItem, key) => {
+            return (
+            <Link className="projectLink" key={key} to={`/projects/${projectItem.id}`}>
+            <ProjectItem
+            key={key}
+            image={projectItem.image}
+            name={projectItem.name}
+            description={projectItem.description} 
+            />
+            </Link>
+            );
+          })}
+          </div>
+          <div className="subtitle">Projects Under EBW</div>
+          <div className="projectsList">
+          {EBWList.map((projectItem, key) => {
             return (
             <Link className="projectLink" key={key} to={`/projects/${projectItem.id}`}>
             <ProjectItem
