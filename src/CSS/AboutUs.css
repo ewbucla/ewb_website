@@ -77,7 +77,7 @@
   .aboutus .BoardList {
       height: auto;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       
     }
   
@@ -144,7 +144,7 @@
 
     @media only screen and (max-width: 1300px) {
       .aboutus .BoardList {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
       }
     }
 

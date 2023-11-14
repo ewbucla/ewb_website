@@ -29,20 +29,4 @@ export const ExecBoard = [
         major: "Computer Science & Engineering",
         position: "External Vice-President",
     },
-    {
-        id: "jaqueline",
-        name: "Jaqueline",
-        image: JaquelineHeadshot,
-        description: "2nd Year",
-        major: "Physics and Philosophy",
-        position: "Internal Vice-President",
-    },
-    {
-        id: "usife",
-        name: "Usife",
-        image: UsifeHeadshot,
-        description: "2nd Year",
-        major: "Social Science",
-        position: "Finance Chair",
-    },
 ]
