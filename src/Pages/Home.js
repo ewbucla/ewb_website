@@ -17,8 +17,7 @@ function Home() {
         </Link>
       </div>
     </div>
-    <h1 className="EBW">Engineering a Better World</h1>
-    <p className="EBWP">Some of our projects operate under our sister club, Engineering a Better World. Checkout our Projects page to learn more!</p>
+    <h1 className="EBW">Learn more about our projects</h1>
     <Link to="/Projects">
       <button className="ProjectsButton">Projects</button>
     </Link>

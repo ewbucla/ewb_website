@@ -11,7 +11,7 @@ function AboutUs() {
           <div className="aboutusTitle">About Us</div>
         </div>
         <h1 className="sectionTitles">Who We Are</h1>
-        <p className="sectionParagraphs">The UCLA student chapter of Engineers without Borders was founded in 2006 by a group of diverse students who were dedicated to using their education to create a lasting, positive impact in the world. Since then, our club has become strongly involved in many international projects, recently completing critical infrastructure projects in Guatemala, Thailand, and the Navajo Nation. Our chapter is currently tackling our most nuanced projects to date in Nicaragua and Uganda with great progress despite the challenges posed by the COVID-19 pandemic.</p>
+        <p className="sectionParagraphs">The UCLA student chapter of Engineers Without Borders (EWB) was founded in 2002 by a group of diverse students who were dedicated to using their education to create a lasting, positive impact in the world. Since then, our club has become strongly involved in many national and international projects, recently completing critical infrastructure projects in Guatemala, Thailand, the Navajo Nation, and Nicaragua. Our chapter is currently tackling our most nuanced projects to date in Uganda, Ethiopia, Nepal, Colombia, and the Inland Empire.</p>
         <h1 className="mainTitle">Meet the Board</h1>
         <div className="BoardList">
           {ExecBoard.map((projectItem, key) => {
@@ -30,7 +30,7 @@ function AboutUs() {
           })}
         </div>
         <h1 className="sectionTitles">MISSION</h1>
-        <p className="sectionParagraphs">Our mission is to support community driven development programs worldwide by collaborating with local partners to design and implement sustainable engineering projects while creating transformative experiences and responsible leaders. In the last few years, with travel restrictions due to a worldwide pandemic, the ability for us to cross borders and implement our engineering design has been greatly limited. However, we are still finding ways to create lasting impact on communities in need through successful remote community work, construction, and project implementation. This year we are also bringing some of our focus toward helping our local community through starting a remote tutoring program for middle school students in LAUSD.</p>
+        <p className="sectionParagraphs">Our mission is to support community driven development programs worldwide by collaborating with local partners to design and implement sustainable engineering projects while creating transformative experiences and responsible leaders. In the last few years, with travel restrictions due to a worldwide pandemic, the ability for us to cross borders and implement our engineering design has been greatly limited. However, we are still finding ways to create lasting impact on communities in need through successful remote community work, construction, and project implementation.</p>
         <h1 className="sectionTitles">VISION</h1>
         <p className="sectionParagraphs">Our vision includes a world in which communities have the capacity to meet their basic human needs. We believe this can be best achieved by focusing on the intersection of international collaboration and strong engineering principles. As for our students, our goal is to help them develop their engineering skills while shaping them into global citizens guided by principles of sustainability, engineering ethics, and empowering infrastructure.</p>
     </div>
