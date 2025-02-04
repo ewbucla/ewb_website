@@ -1,8 +1,7 @@
 import SurajHeadshot from "../Media/SurajHeadshot.jpg";
 import ChrisHeadshot from "../Media/ChrisHeadshot.jpg";
 import EllaHeadshot from "../Media/EllaHeadshot.jpg";
-import UsifeHeadshot from "../Media/UsifeHeadshot.jpg";
-import JaquelineHeadshot from "../Media/JaquelineHeadshot.jpg";
+
 
 export const ExecBoard = [
     {
