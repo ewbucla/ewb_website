@@ -1,7 +1,6 @@
-import Nicaragua from "../Media/NicaraguaProjectPic.JPG";
-import Uganda from "../Media/UgandaProjectPic.JPG";
 import Ethiopia from "../Media/EthiopiaProjectPic.JPG";
 import Nepal from "../Media/NepalProject.jpg";
+import Colombia from "../Media/ColombiaProject.png";
 
 export const EBWList = [
     {
@@ -17,5 +16,12 @@ export const EBWList = [
         image: Nepal,
         meetingTimes: "Thursday 6-7pm",
         description: "Provide income and food sustainability to the Nepal Freedom School"
+    },
+    {
+        id: "colombia",
+        name: "Colombia",
+        image: Colombia,
+        meetingTimes: "Unsure",
+        description: "Combat food insecurity in Colombia by building three greenhouses"
     },
 ]
