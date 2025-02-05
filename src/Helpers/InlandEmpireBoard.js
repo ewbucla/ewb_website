@@ -2,8 +2,8 @@
 
 export const InlandEmpireBoard = [
     {
-        id: "inland-empire",
-        name: "Inland Empire",
+        id: "",
+        name: "",
         image: null,
         description: "",
         major: ""
