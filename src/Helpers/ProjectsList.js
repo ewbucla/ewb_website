@@ -38,6 +38,6 @@ export const ProjectsList = [
         name: "Inland Empire",
         image: InlandEmpire,
         meetingTimes: "",
-        description: ""
+        description: "Enhance farming accessibility at Huerta del Valle through ADA garden beds"
     }
 ]

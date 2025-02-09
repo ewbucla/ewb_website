@@ -9,7 +9,7 @@ function InlandEmpire() {
         <div className="inlandEmpireTitleSection">
           <div className="inlandEmpireOverlay"></div>
           <div className="inlandEmpireTitle">Inland Empire</div>
-          <div className="inlandEmpireTitle2">Inland Empire Title 2</div>
+          <div className="inlandEmpireTitle2">Agriculture Sustainability</div>
         </div>
         <h1 className="sectionTitles">Project Leads</h1>
         <div className="BoardList">
