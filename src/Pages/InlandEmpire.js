@@ -11,7 +11,7 @@ function InlandEmpire() {
           <div className="inlandEmpireTitle">Inland Empire</div>
           <div className="inlandEmpireTitle2">Agriculture Sustainability</div>
         </div>
-        <h1 className="sectionTitles">Project Leads</h1>
+        <h1 className="sectionTitles">Project Managers</h1>
         <div className="BoardList">
           {InlandEmpireBoard.map((projectItem, key) => {
             return (
