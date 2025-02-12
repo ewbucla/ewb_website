@@ -2,8 +2,11 @@ import React from 'react'
 import { NepalBoard } from '../Helpers/NepalBoard.js';
 import ProjectItem from '../Components/ProjectItem';
 import "../CSS/Nepal.css";
+import { useEffect } from "react";
 
 function Nepal() {
+  useEffect(() => {
+  window.scrollTo(0, 0); } , []);
   return (
     <div className="nepal">
         <div className="nepalTitleSection">

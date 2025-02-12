@@ -1,7 +1,10 @@
 import React from 'react'
 import "../CSS/Guatemala.css";
+import { useEffect } from "react";
 
 function Guatemala() {
+  useEffect(() => {
+  window.scrollTo(0, 0); } , []);
   return (
     <div className="guatemala">
         <div className="guatemalaTitleSection">
