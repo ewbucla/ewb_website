@@ -2,8 +2,11 @@ import React from 'react'
 import { EthiopiaBoard } from '../Helpers/EthiopiaBoard';
 import ProjectItem from '../Components/ProjectItem';
 import "../CSS/Ethiopia.css";
+import { useEffect } from "react";
 
 function Ethiopia() {
+  useEffect(() => {
+  window.scrollTo(0, 0); } , []);
   return (
     <div className="ethiopia">
         <div className="ethiopiaTitleSection">
