@@ -11,22 +11,6 @@ function Nicaragua() {
           <div className="nicaraguaTitle">Nicaragua</div>
           <div className="nicaraguaTitle2">Sanitation, Education & Development</div>
         </div>
-        <h1 className="mainTitle">Project Leads</h1>
-        <div className="BoardList">
-          {NicaraguaBoard.map((projectItem, key) => {
-            return (
-            <div className="Boardmember" key={key} to={`/projects/${projectItem.id}`}>
-            <ProjectItem
-            key={key}
-            image={projectItem.image}
-            name={projectItem.name}
-            description={projectItem.description} 
-            major={projectItem.major}
-            />
-            </div>
-            );
-          })}
-        </div>
         <h1 className="sectionTitles">About the Project</h1>
         <p className="sectionParagraphs">The Nicaragua Schoolhouse Project site is  located in San Sebastián, a rural town near the east coast of Nicaragua. Our goal is to build a new schoolhouse structure for educational and community uses. Throughout the construction, we will work with local residents, including people from San Sebastián and its surrounding communities: Cano Negro, Cano Azul, and Nuevo Alianza. By working with the local communities, we aim to create accessible educational institutions for all students in the region and establish a multipurpose space for the surrounding communities.</p>
         <p className="sectionParagraphs">In 2017, a team of UCLA students and professional engineers traveled to San Sebastian on an assessment trip to address these educational needs. UCLA’s Engineers Without Borders members have completed two implementation trips across a four-year period to carry on the project. We have poured all of the footings and half of the continuous concrete beam for the structure’s foundation.  </p>
