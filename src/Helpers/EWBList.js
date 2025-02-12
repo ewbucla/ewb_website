@@ -38,4 +38,11 @@ export const EWBList = [
     description:
       "Combat food insecurity in Colombia by building three greenhouses",
   },
+  {
+    id: "inland-empire",
+    name: "Inland Empire",
+    image: null,
+    meetingTimes: "",
+    description: ""
+  }
 ];

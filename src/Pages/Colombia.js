@@ -28,7 +28,7 @@ function Colombia() {
           })}
         </div>
         <h1 className="sectionTitles">About the Project</h1>
-        <p className="sectionParagraphs">Colombia Description - need to update</p>
+        <p className="sectionParagraphs">Colombia Description - need to update THIS IS THE CHANGE</p>
         <h1 className="sectionTitles">About Colombia</h1>
         <p className="sectionParagraphs">Describe communities</p>
         <h1 className="sectionTitles">Future Plans</h1>

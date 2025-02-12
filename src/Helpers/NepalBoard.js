@@ -1,5 +1,5 @@
 import JasonHeadshot from "../Media/JasonHeadshot.jpg";
-import BlankProfile from "../Media/MissyHeadshot.jpg";
+import MissyHeadshot from "../Media/MissyHeadshot.jpg";
 
 export const NepalBoard = [
     {
@@ -12,7 +12,7 @@ export const NepalBoard = [
     {
         id: "missy",
         name: "Missy",
-        image: BlankProfile,
+        image: MissyHeadshot,
         description: "3rd Year",
         major: "Computer Science",
     },

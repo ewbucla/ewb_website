@@ -25,4 +25,11 @@ export const ProjectsList = [
         meetingTimes: "Thursday 6-7pm",
         description: "Provide income and food sustainability to the Nepal Freedom School"
     },
+    {
+        id: "inland_empire",
+        name: "Inland Empire",
+        image: null,
+        meetingTimes: "",
+        description: ""
+    }
 ]
