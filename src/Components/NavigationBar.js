@@ -16,7 +16,6 @@ function NavigationBar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-
   return (
     <>
       <div className='navigationbar'>
@@ -42,11 +41,11 @@ function NavigationBar() {
               Projects
             </Link>
             <div className="projects-dropdown-container">
-              {EWBList.map((item, index) => {
+              {EWBList.map((project, index) => {
                 return(
                   <div className="dropdown-item" key={index}>
-                    <Link to={"/projects/" + item.id} className="dropdown-item-link">
-                      {item.name}
+                    <Link to={"/projects/" + project.id} className="dropdown-item-link" onClick={closeMobileMenu}>
+                      {project.name}
                     </Link>
                   </div>
                 );
