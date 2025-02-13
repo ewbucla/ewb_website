@@ -36,6 +36,36 @@
   transition: all 0.2s ease-out;
 }
 
+.projects:hover .projects-dropdown-container {
+  visibility: visible;
+}
+
+.projects-dropdown-container {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 15px 5px;
+}
+
+.dropdown-item-link {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.dropdown-item-link:hover {
+  background-color: #CAE0FF;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
 .menu-icon {
   display: none;
 }
