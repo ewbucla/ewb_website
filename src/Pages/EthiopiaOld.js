@@ -1,7 +1,10 @@
 import React from 'react'
 import "../CSS/EthiopiaOld.css";
+import { useEffect } from "react";
 
 function EthiopiaOld() {
+  useEffect(() => {
+  window.scrollTo(0, 0); } , []);
   return (
     <div className="ethiopiaold">
         <div className="ethiopiaoldTitleSection">

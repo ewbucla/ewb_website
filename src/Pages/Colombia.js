@@ -2,8 +2,11 @@ import React from 'react'
 import { ColombiaBoard } from '../Helpers/ColombiaBoard';
 import ProjectItem from '../Components/ProjectItem';
 import "../CSS/Colombia.css";
+import { useEffect } from "react";
 
 function Colombia() {
+  useEffect(() => {
+  window.scrollTo(0, 0); } , []);
   return (
     <div className="colombia">
         <div className="colombiaTitleSection">
@@ -28,7 +31,7 @@ function Colombia() {
           })}
         </div>
         <h1 className="sectionTitles">About the Project</h1>
-        <p className="sectionParagraphs">Colombia Description - need to update</p>
+        <p className="sectionParagraphs">Colombia Description - need to update THIS IS THE CHANGE</p>
         <h1 className="sectionTitles">About Colombia</h1>
         <p className="sectionParagraphs">Describe communities</p>
         <h1 className="sectionTitles">Future Plans</h1>

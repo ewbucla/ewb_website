@@ -2,8 +2,11 @@ import React from 'react'
 import { UgandaBoard } from '../Helpers/UgandaBoard';
 import ProjectItem from '../Components/ProjectItem';
 import "../CSS/Uganda.css";
+import { useEffect } from "react";
 
 function Uganda() {
+  useEffect(() => {
+  window.scrollTo(0, 0); } , []);
   return (
     <div className="uganda">
         <div className="ugandaTitleSection">
