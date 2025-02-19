@@ -1,16 +1,10 @@
-import Nicaragua from "../Media/NicaraguaProjectPic.JPG";
 import Uganda from "../Media/UgandaProjectPic.JPG";
 import Ethiopia from "../Media/EthiopiaProjectPic.JPG";
 import Nepal from "../Media/NepalProject.jpg";
+import InlandEmpire from "../Media/InlandEmpireProjectPic.jpeg"
 
 export const ProjectsList = [
-    {
-        id: "nicaragua",
-        name: "Nicaragua",
-        image: Nicaragua,
-        meetingTimes: "Monday 6-7pm",
-        description: "Implement a new school house in the San Sebastián community in Nicaragua.",
-    },
+    
     {
         id: "uganda",
         name: "Uganda",
@@ -32,4 +26,11 @@ export const ProjectsList = [
         meetingTimes: "Thursday 6-7pm",
         description: "Provide income and food sustainability to the Nepal Freedom School"
     },
+    {
+        id: "inland-empire",
+        name: "Inland Empire",
+        image: InlandEmpire,
+        meetingTimes: "",
+        description: "Enhance farming accessibility at Huerta del Valle through ADA garden beds"
+    }
 ]
