@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 import ReorderIcon from '@mui/icons-material/Reorder';
 import CloseIcon from '@mui/icons-material/Close';
 import '../CSS/NavigationBar.css';
-import { InsertDriveFile } from '@mui/icons-material';
+// import { InsertDriveFile } from '@mui/icons-material';
+// import the project items for nav hover
+import { EWBList } from "../Helpers/EWBList";
 
 function NavigationBar() {
 
@@ -14,11 +16,10 @@ function NavigationBar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-
   return (
     <>
       <div className='navigationbar'>
-        <img src={ewbLogo} />
+        <img src={ewbLogo} alt='EWB Logo'/>
         <div className='menu-icon' onClick={handleClick} >
           <button onClick={handleClick}>
            {click ? <CloseIcon /> : <ReorderIcon />}
@@ -35,10 +36,21 @@ function NavigationBar() {
               About Us
             </Link>
           </div>
-          <div className='nav-item'>
-            <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+          <div className='nav-item projects'>
+            <Link to='/projects' className='nav-links projects-link' onClick={closeMobileMenu}>
               Projects
             </Link>
+            <div className="projects-dropdown-container">
+              {EWBList.map((project, index) => {
+                return(
+                  <div className="dropdown-item" key={index}>
+                    <Link to={"/projects/" + project.id} className="dropdown-item-link" onClick={closeMobileMenu}>
+                      {project.name}
+                    </Link>
+                  </div>
+                );
+              })}
+            </div>
           </div>
           <div className='nav-item'>
             <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
