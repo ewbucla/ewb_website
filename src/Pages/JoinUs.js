@@ -19,15 +19,15 @@ function JoinUs() {
           <div className="projectsList">
             {ProjectsList.map((projectItem, key) => {
               return (
-              // <Link className="projectLink" key={key} to={`/projects/${projectItem.id}`}>
-              <ProjectItem
-              key={key}
-              image={projectItem.image}
-              name={projectItem.name}
-              meetingTimes={projectItem.meetingTimes}
-              description={projectItem.description} 
-              />
-              // </Link>
+              <Link className="projectLink" key={key} to={`/projects/${projectItem.id}`}>
+                <ProjectItem
+                key={key}
+                image={projectItem.image}
+                name={projectItem.name}
+                meetingTimes={projectItem.meetingTimes}
+                description={projectItem.description} 
+                />
+              </Link>
               );
             })}
           </div>
