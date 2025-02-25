@@ -17,7 +17,7 @@ function Projects() {
       </div>
       <div className="CurrentProjects">Current Projects</div>
       <div className="subtitle">Projects Under EWB</div>
-      <div className="projectsList">
+      <div className="projectsList current-projects-list">
         {EWBList.map((projectItem, key) => {
           return (
             <Link
@@ -36,7 +36,7 @@ function Projects() {
         })}
       </div>
       <div className="OldProjects">Old Projects</div>
-      <div className="projectsList">
+      <div className="projectsList old-projects-list">
         {OldProjectsList.map((projectItem, key) => {
           return (
             <Link
