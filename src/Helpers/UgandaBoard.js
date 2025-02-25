@@ -1,19 +1,19 @@
-import ChristinaHeadshot from "../Media/ChristinaHeadshot.jpg";
-import AkshyaeHeadshot from "../Media/AkshyaeHeadshot.jpg";
+import BeauHeadshot from "../Media/BeauHeadshot.png";
+import AnliHeadshot from "../Media/AnliHeadshot.png";
 
 export const UgandaBoard = [
     {
-        id: "christina",
-        name: "Christina",
-        image: ChristinaHeadshot,
-        description: "4th Year",
+        id: "beau",
+        name: "Beau",
+        image: BeauHeadshot,
+        description: "Masters",
         major: "Civil Engineering",
     },
     {
-        id: "akshyae",
-        name: "Akshyae",
-        image: AkshyaeHeadshot,
-        description: "2nd Year",
-        major: "Cognitive Science",
+        id: "anli",
+        name: "Anli",
+        image: AnliHeadshot,
+        description: "4th year",
+        major: "Civil Engineering",
     },
 ]

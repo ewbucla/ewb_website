@@ -1,12 +1,22 @@
 // add the images
-import PlaceHolderImage from '../Media/inlandEmpireManagerPlaceholder.jpg';
+import RyanHeadshot from '../Media/RyanHeadshot.png';
+import ValeriaHeadshot from '../Media/ValeriaHeadshot.png';
 
 export const InlandEmpireBoard = [
   {
-    id: "placeholder",
-    name: "placeholder",
-    image: PlaceHolderImage,
-    description: "placeholder description",
-    major: "major",
+    id: "ryan",
+    name: "Ryan",
+    image: RyanHeadshot,
+    description: "2nd year",
+    major: "Civil Engineering",
   },
+
+  {
+    id: "valeria",
+    name: "Valeria",
+    image: ValeriaHeadshot,
+    description: "2nd year",
+    major: "Environmental Science",
+  },
+
 ];

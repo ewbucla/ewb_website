@@ -74,12 +74,27 @@
     padding-right: 10%;
   }
   
-  .aboutus .BoardList {
+  /*.aboutus .BoardList {
       height: auto;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       
-    }
+    } */
+
+    .aboutus .BoardList {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; /* Three columns */
+      grid-template-rows: auto; /* Adjusts height automatically */
+      gap: 10px; /* Adjust spacing as needed */
+  }
+  
+  .aboutus .BoardList div:nth-child(1) {
+      grid-column: span 1; /* First element spans two columns */
+  }
+  .aboutus .BoardList div:nth-child(2) {
+      grid-column: span 2; /* Second element stays in its place */
+  }
+  
   
     .aboutus .projectItem {
       border-radius: 15px;
