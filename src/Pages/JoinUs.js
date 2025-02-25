@@ -21,11 +21,11 @@ function JoinUs() {
               return (
               <Link className="projectLink" key={key} to={`/projects/${projectItem.id}`}>
                 <ProjectItem
-                key={key}
-                image={projectItem.image}
-                name={projectItem.name}
-                meetingTimes={projectItem.meetingTimes}
-                description={projectItem.description} 
+                  key={key}
+                  image={projectItem.image}
+                  name={projectItem.name}
+                  meetingTimes={projectItem.meetingTimes}
+                  description={projectItem.description} 
                 />
               </Link>
               );
