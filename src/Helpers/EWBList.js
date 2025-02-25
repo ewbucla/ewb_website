@@ -11,7 +11,7 @@ export const EWBList = [
     id: "uganda",
     name: "Uganda",
     image: Uganda,
-    meetingTimes: "Tuesday 6-7pm",
+    meetingTimes: "Wednesdays 6-7pm",
     description:
       "Provide clean water to the Bukonko village in Uganda through a new water system.",
   },
@@ -19,7 +19,7 @@ export const EWBList = [
     id: "ethiopia",
     name: "Ethiopia",
     image: Ethiopia,
-    meetingTimes: "Wednesday 6-7pm",
+    meetingTimes: "Mondays 6-7pm",
     description:
       "Increase water access through the construction of latrines, a water tank and a digital library",
   },
@@ -27,7 +27,7 @@ export const EWBList = [
     id: "nepal",
     name: "Nepal",
     image: Nepal,
-    meetingTimes: "Thursday 6-7pm",
+    meetingTimes: "Thursdays 6-7pm",
     description:
       "Provide income and food sustainability to the Nepal Freedom School",
   },
@@ -35,7 +35,7 @@ export const EWBList = [
     id: "colombia",
     name: "Colombia",
     image: Colombia,
-    meetingTimes: "Unsure",
+    meetingTimes: "Tuesdays 6-7pm",
     description:
       "Combat food insecurity in Colombia by building three greenhouses",
   },
@@ -43,7 +43,7 @@ export const EWBList = [
     id: "inland-empire",
     name: "Inland Empire",
     image: InlandEmpire,
-    meetingTimes: "",
+    meetingTimes: "Wednesdays 6-7pm",
     description: "Enhance farming accessibility at Huerta del Valle through ADA garden beds"
   }
 ];
