@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // import ewbLogo from "../Media/UCLAEWBLogo.png";
-import ewbLogo from "../Media/whiteimage.jpg";
+import ewbLogo from "../Media/EWB-UCLA_Header.png";
 // import altLogo from "../Media/EWB.jpg";
 import { Link } from "react-router-dom"; 
 import ReorderIcon from '@mui/icons-material/Reorder';
@@ -19,7 +19,9 @@ function NavigationBar() {
   return (
     <>
       <div className='navigationbar'>
-        <img src={ewbLogo} alt='EWB Logo'/>
+        <Link to='/' onClick={closeMobileMenu}>
+          <img src={ewbLogo} alt='EWB Logo'/>
+        </Link>
         <div className='menu-icon' onClick={handleClick} >
           <button onClick={handleClick}>
            {click ? <CloseIcon /> : <ReorderIcon />}
