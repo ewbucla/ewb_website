@@ -31,10 +31,10 @@ function Colombia() {
           })}
         </div>
         <h1 className="sectionTitles">About the Project</h1>
-        <p className="sectionParagraphs">The Colombia project consists of building 3 biofactories in the localities of Caqueta, Planadas, and Armenia which will each serve around 100 community members.</p>
+        <p className="sectionParagraphs">The Colombia project consists of building 3 biofactories in the localities of Caqueta, Planadas, and Armenia which will each serve around 100 community members. We will be working with the SoyDoy Foundation, whose mission is to generate systemic and sustainable changes to transform food systems.</p>
         <h1 className="sectionTitles">About the Community</h1>
         <p className="sectionParagraphs">In 2022, 5 million Colombians did not reach their cognitive potential due to chronic malnutrition during childhood. Affected communities are thus not only underfed, they are also prevented from improving their quality of life by obtaining higher-paying jobs and left vulnerable as a result of undernourishment.</p>
-        <h1 className="sectionTitles">Current State of Project</h1>
+        <h1 className="sectionTitles">Assessment Trips & Current State of Project</h1>
         <p className="sectionParagraphs"> We have finished our designs, drafted our construction drawings, and elaborated a bill of materials. Currently, we are awaiting final confirmation of the budget and drawings by the architects with whom we are working in Colombia.</p>
     </div>
   )
