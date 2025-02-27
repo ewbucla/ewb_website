@@ -6,14 +6,14 @@ export const NepalBoard = [
         id: "jason",
         name: "Jason",
         image: JasonHeadshot,
-        description: "3rd Year",
+        description: "4th Year",
         major: "Mechanical Engineering",
     },
     {
         id: "missy",
         name: "Missy",
         image: MissyHeadshot,
-        description: "3rd Year",
+        description: "4th Year",
         major: "Computer Science",
     },
 ]
