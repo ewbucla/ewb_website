@@ -1,19 +1,19 @@
-import EmilyHeadshot from "../Media/EmilyHeadshot.jpg";
-import BlankProfile from "../Media/AhanHeadshot.jpg";
+import AhanHeadshot from "../Media/AhanHeadshot.jpg";
+import BenjaminHeadshot from "../Media/BenjaminHeadshot.png";
 
 export const EthiopiaBoard = [
     {
-        id: "emily",
-        name: "Emily",
-        image: EmilyHeadshot,
-        description: "4th Year",
-        major: "Bioengineering",
-    },
-    {
         id: "ahan",
         name: "Ahan",
-        image: BlankProfile,
-        description: "3rd year",
+        image: AhanHeadshot,
+        description: "4th year",
+        major: "Mechanical Engineering",
+    },
+    {
+        id: "benjamin",
+        name: "Benjamin",
+        image: BenjaminHeadshot,
+        description: "4th year",
         major: "Mechanical Engineering",
     },
 ]

@@ -1,20 +1,21 @@
 // add the images
-import ValeriaSanchezHeadshot from '../Media/ValeriaSanchezHeadshot.jpg';
-import RyanBooherHeadshot from '../Media/RyanBooherHaedshot.png'; 
+import ValeriaHeadshot from '../Media/ValeriaHeadshot.png';
+import RyanHeadshot from '../Media/RyanHeadshot.png';
 
 export const InlandEmpireBoard = [
   {
-    id: "valeria_sanchez",
+    id: "valeria",
     name: "Valeria",
-    image: ValeriaSanchezHeadshot,
-    description: "2nd Year",
+    image: ValeriaHeadshot,
+    description: "2nd year",
     major: "Environmental Science",
   },
+
   {
-    id: "ryan_booher",
+    id: "ryan",
     name: "Ryan",
-    image: RyanBooherHeadshot,
+    image: RyanHeadshot,
     description: "2nd year",
-    major: "Civil Engineering"
-  }
+    major: "Civil Engineering",
+  },
 ];
