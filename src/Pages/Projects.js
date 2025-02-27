@@ -16,7 +16,6 @@ function Projects() {
         <div className="projectsTitle">Our Projects</div>
       </div>
       <div className="CurrentProjects">Current Projects</div>
-      <div className="subtitle">Projects Under EWB</div>
       <div className="projectsList current-projects-list">
         {EWBList.map((projectItem, key) => {
           return (
