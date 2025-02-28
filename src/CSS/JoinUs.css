@@ -129,8 +129,11 @@
   .joinus .projectsList {
     /* width: 70vw; */
     height: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 16.5%;
+    padding-right: 16.5%;
+    /* grid-template-columns: repeat(3, 1fr);
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     place-items: center;
     justify-content: center;
