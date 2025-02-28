@@ -1,21 +1,21 @@
-// add the images
-import ValeriaHeadshot from '../Media/ValeriaHeadshot.png';
 import RyanHeadshot from '../Media/RyanHeadshot.png';
+import ValeriaHeadshot from '../Media/ValeriaHeadshot.png';
 
 export const InlandEmpireBoard = [
-  {
-    id: "valeria",
-    name: "Valeria",
-    image: ValeriaHeadshot,
-    description: "2nd year",
-    major: "Environmental Science",
-  },
-
   {
     id: "ryan",
     name: "Ryan",
     image: RyanHeadshot,
-    description: "2nd year",
+    description: "2nd Year",
     major: "Civil Engineering",
   },
+
+  {
+    id: "valeria",
+    name: "Valeria",
+    image: ValeriaHeadshot,
+    description: "2nd Year",
+    major: "Environmental Science",
+  },
+
 ];

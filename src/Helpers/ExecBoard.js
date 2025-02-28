@@ -55,7 +55,9 @@ export const ExecBoard = [
         position: "Finance Chair",
     },
 
+
     {
+
         id: "arathi",
         name: "Arathi",
         image: ArathiHeadshot,
@@ -107,9 +109,7 @@ export const ExecBoard = [
         description: "2nd Year",
         major: "Aerospace Engineering",
         position: "",
-    },
-
-  
-
+    }
 
 ]
+
