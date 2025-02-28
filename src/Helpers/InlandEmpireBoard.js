@@ -1,4 +1,3 @@
-// add the images
 import RyanHeadshot from '../Media/RyanHeadshot.png';
 import ValeriaHeadshot from '../Media/ValeriaHeadshot.png';
 

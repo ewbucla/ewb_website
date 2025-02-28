@@ -2,6 +2,7 @@ import Uganda from "../Media/UgandaProjectPic.JPG";
 import Ethiopia from "../Media/EthiopiaProjectPic.JPG";
 import Colombia from "../Media/ColombiaProject.png";
 import Nepal from "../Media/NepalProject.jpg";
+import Colombia from "../Media/ColombiaProject.png";
 import InlandEmpire from "../Media/InlandEmpireProjectPic.jpeg"
 
 export const ProjectsList = [
@@ -40,5 +41,5 @@ export const ProjectsList = [
         image: InlandEmpire,
         meetingTimes: "Wednesday 6-7pm",
         description: "Enhance farming accessibility at Huerta del Valle through ADA garden beds"
-    }
+    },
 ]

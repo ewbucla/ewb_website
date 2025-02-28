@@ -1,4 +1,3 @@
-
 import SurajHeadshot from "../Media/SurajShahHeadshot.png";
 import SofieHeadshot from "../Media/SofieHeadshot.png";
 import AditiHeadshot from "../Media/AditiHeadshot.png";
@@ -56,7 +55,9 @@ export const ExecBoard = [
         position: "Finance Chair",
     },
 
+
     {
+
         id: "arathi",
         name: "Arathi",
         image: ArathiHeadshot,
@@ -108,9 +109,7 @@ export const ExecBoard = [
         description: "2nd Year",
         major: "Aerospace Engineering",
         position: "",
-    },
-
-  
-
+    }
 
 ]
+
