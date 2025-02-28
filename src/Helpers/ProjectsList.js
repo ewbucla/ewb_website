@@ -2,7 +2,6 @@ import Uganda from "../Media/UgandaProjectPic.JPG";
 import Ethiopia from "../Media/EthiopiaProjectPic.JPG";
 import Colombia from "../Media/ColombiaProject.png";
 import Nepal from "../Media/NepalProject.jpg";
-import Colombia from "../Media/ColombiaProject.png";
 import InlandEmpire from "../Media/InlandEmpireProjectPic.jpeg"
 
 export const ProjectsList = [
