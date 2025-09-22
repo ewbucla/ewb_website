@@ -96,6 +96,40 @@
     text-emphasis-style: open;
     text-emphasis-color: rgba(16, 143, 216, 1);
   }
+  /* testing for old projects */
+  .projects .projectsList.old-projects-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  } 
+
+  .projects .projectsList.old-projects-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .old-projects-list .projectLink:nth-child(4) {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    justify-self: center;
+  }
+
+  .old-projects-list .projectLink:nth-child(5) {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    justify-self: center;
+  }
+
+  .old-projects-list .projectLink:nth-child(6) {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    justify-self: center;
+  }
+
+  .old-projects-list .projectLink:nth-child(7) {
+    grid-column: 2 / span 2;
+    grid-row: 3;
+    justify-self: center;
+  }
 
  .projects .OldProjects {
     padding-top: 30px;
@@ -154,10 +188,17 @@
   }
 
   @media only screen and (max-width: 1000px) {
-    .projects .projectsList {
+    .projects .projectsList,
+    .projects .projectsList.current-projects-list,
+    .projects .projectsList.old-projects-list {
       grid-template-columns: repeat(2, 1fr) !important;
     }
-
+    .current-projects-list .projectLink,
+    .old-projects-list .projectLink {
+    grid-column: auto !important;
+    grid-row: auto !important;
+    justify-self: center; }
+    /*
     .current-projects-list .projectLink:nth-child(3) {
       grid-column: 1;
       grid-row: 2;
@@ -175,14 +216,23 @@
       grid-row: 3;
       justify-self: center;
     }
+      */
   }
   
   @media only screen and (max-width: 650px) {
-    .projects .projectsList {
+    .projects .projectsList,
+    .projects .projectsList.current-projects-list,
+    .projects .projectsList.old-projects-list {
       grid-template-columns: 1fr !important;
       grid-template-rows: repeat(5, 1fr);
     }
-
+    .current-projects-list .projectLink,
+  .old-projects-list .projectLink {
+    grid-column: auto !important;
+    grid-row: auto !important;
+    justify-self: center;
+  }
+ /*
     .current-projects-list .projectLink:nth-child(2) {
       grid-column: 1;
       grid-row: 2;
@@ -205,7 +255,7 @@
       grid-column: 1;
       grid-row: 5;
       justify-self: center;
-    }
+    } */
   }
 
   @media only screen and (max-width: 410px) {

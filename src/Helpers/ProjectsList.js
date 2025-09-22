@@ -41,4 +41,11 @@ export const ProjectsList = [
         meetingTimes: "Wednesday 6-7pm",
         description: "Enhance farming accessibility at Huerta del Valle through ADA garden beds"
     },
+    {
+        id: "research-project",
+        name: "Research Project",
+        image: InlandEmpire,
+        meetingTimes: "Thursday 6-7pm",
+        description: "Enhance farming accessibility at Huerta del Valle through ADA garden beds"
+    },
 ]
