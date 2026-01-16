@@ -3,6 +3,7 @@ import Ethiopia from "../Media/EthiopiaProjectPic.JPG";
 import Colombia from "../Media/ColombiaProject.png";
 import Nepal from "../Media/NepalProject.jpg";
 import InlandEmpire from "../Media/InlandEmpireProjectPic.jpeg"
+import Ecuador from "../Media/EcuadorProjectPic.png"
 
 export const ProjectsList = [
     
@@ -45,7 +46,14 @@ export const ProjectsList = [
         id: "research-project",
         name: "Research Project",
         image: InlandEmpire,
-        meetingTimes: "Thursday 6-7pm",
+        meetingTimes: "Monday 6-7pm",
         description: "Enhance farming accessibility at Huerta del Valle through ADA garden beds"
+    },
+    {
+        id: "ecuador",
+        name: "Ecuador",
+        image: Ecuador,
+        meetingTimes: "Thursday 6-7pm",
+        description: "Enhancing water catchment, distribution, and chlorination infrastructure to improve access to safe, high-quality water in San Pedro de Cachihuayco, Ecuador"
     },
 ]
