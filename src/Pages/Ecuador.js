@@ -11,7 +11,7 @@ function Ecuador() {
     <div className="ecuador"> 
         <div className="ecuadorTitleSection">
           <div className="ecuadorOverlay"></div>
-          <div className="ecuadorTitle">Ethiopia</div>
+          <div className="ecuadorTitle">Ecuador</div>
           <div className="ecuadorTitle2">Enhancing access to safe, high-quality water in San Pedro de Cachihuayco, Ecuador</div>
         </div>
         <h1 className="sectionTitles">Project Leads</h1>
