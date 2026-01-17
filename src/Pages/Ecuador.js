@@ -35,7 +35,7 @@ function Ecuador() {
         <h1 className="sectionTitles">About the community</h1>
         <p className="sectionParagraphs">San Pedro de Cachihuayco is a rural indigenous community in Punin parish, Riobamba canton, Ecuador, and it is home to about 120 residents. The community’s economy is centered around agriculture and livestock, with families growing crops like potatoes and corn, and raising livestock for milk and wool. The water system relies on three catchment points located on a hill about a 45-minute walk from the community center, but this infrastructure is in need of maintenance. Residents are deeply invested in improving their water supply, with a community water board designated to oversee the water system. This project will support their efforts to build more resilient water infrastructure that meets the economic and usage needs.</p>
         <h1 className="sectionTitles">Assessment Trips and the Current State of the Project</h1>
-        <p className="sectionparagraphs">
+        <p className="sectionParagraphs">
           This project was recently adopted by the UCLA chapter in August 2025. 
           With an estimated budget of $16,250, our chapter is working towards 
           securing funds for construction while building a team of committed 
