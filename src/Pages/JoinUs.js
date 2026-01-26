@@ -1,50 +1,64 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import BackgroundIMG from '../Media/EWBBG2.jpg'
-import '../CSS/JoinUs.css'
+import '../CSS/JoinUs.css';
 import { ProjectsList } from '../Helpers/ProjectsList';
-// import { OldProjectsList } from '../Helpers/OldProjectsList';
 import ProjectItem from '../Components/ProjectItem';
-import ProjectsBG from '../Media/ProjectsBG.jpg';
 
 function JoinUs() {
   return (
-        <div className="joinus" >
-          <div className='banner'>
-            <div className="banner-overlay"></div>
-            <div className='banner-text'>Join Us</div>
-          </div>
-          <div className="CurrentProjects">Current Projects</div>
-          <p className="LookingForMembers">We are always looking for new members to join our projects! Hover or click on each project to see their meeting times.</p>
-          <div className="projectsList">
-            {ProjectsList.map((projectItem, key) => {
-              return (
-              <Link className="projectLink" key={key} to={`/projects/${projectItem.id}`}>
-                <ProjectItem
-                  key={key}
-                  image={projectItem.image}
-                  name={projectItem.name}
-                  meetingTimes={projectItem.meetingTimes}
-                  description={projectItem.description} 
-                />
-              </Link>
-              );
-            })}
-          </div>
-          <div className='button-display'>
-            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeIhzFkpkdqqEvi5gAMj6q7BUgeWu3tRAgUpRomvsV7rSftNQ/viewform">
-              <button className="aesthetic-button" >Join EWB Mailing List </button>
-            </Link>
-            <Link to="https://tinyurl.com/ewbucladiscord">
-              <button className="aesthetic-button" >Join EWB Discord Server</button>
-            </Link>
-          </div>
-        </div>
-  );
+    <div className="joinus">
+      <div className='banner'>
+        <div className="banner-overlay"></div>
+        <div className='banner-text'>Join Us</div>
+      </div>
 
+      <div className="CurrentProjects">Current Projects</div>
+
+      {/* Inclusion Statement */}
+      <p className="inclusion-statement">
+        Consistent with the mission of{" "}
+        <a
+          href="https://www.ewb-usa.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Engineers Without Borders USA
+        </a>
+        , the UCLA chapter of EWB is open to all students.
+      </p>
+
+      <p className="LookingForMembers">
+        We are always looking for new members to join our projects! Hover or click on each project to see their meeting times.
+      </p>
+
+      <div className="projectsList">
+        {ProjectsList.map((projectItem, key) => (
+          <Link className="projectLink" key={key} to={`/projects/${projectItem.id}`}>
+            <ProjectItem
+              image={projectItem.image}
+              name={projectItem.name}
+              meetingTimes={projectItem.meetingTimes}
+              description={projectItem.description}
+            />
+          </Link>
+        ))}
+      </div>
+
+      <div className='button-display'>
+        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeIhzFkpkdqqEvi5gAMj6q7BUgeWu3tRAgUpRomvsV7rSftNQ/viewform">
+          <button className="aesthetic-button">Join EWB Mailing List</button>
+        </Link>
+        <Link to="https://tinyurl.com/ewbucladiscord">
+          <button className="aesthetic-button">Join EWB Discord Server</button>
+        </Link>
+      </div>
+    </div>
+  );
 }
 
 export default JoinUs;
+
+
 
 
 // Code trying to make button work:
