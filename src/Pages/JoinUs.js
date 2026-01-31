@@ -25,9 +25,7 @@ function JoinUs() {
           Engineers Without Borders USA
         </a>
         , the UCLA chapter of EWB is open to all students.
-      </p>
-
-      <p className="LookingForMembers">
+        <br></br>
         We are always looking for new members to join our projects! Hover or click on each project to see their meeting times.
       </p>
 
