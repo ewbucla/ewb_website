@@ -11,6 +11,24 @@
   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
 }
 
+.joinus .inclusion-statement {
+  margin: 25px auto 10px auto;
+  max-width: 900px;
+  font-size: 16px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.joinus .inclusion-statement a {
+  color: #108FD8;
+  text-decoration: underline;
+}
+
+.joinus .inclusion-statement a:hover {
+  color: #0B5C8F;
+}
+
 .banner {
   position: relative;
   width: 100%;
@@ -127,18 +145,16 @@
     padding-left: 33%;
   }
   .joinus .projectsList {
-    /* width: 70vw; */
-    height: auto;
     display: flex;
+    justify-content: center;   /* true centering */
+    align-items: stretch;
     flex-wrap: wrap;
-    padding-left: 16.5%;
-    padding-right: 16.5%;
-    /* grid-template-columns: repeat(3, 1fr);
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    place-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 40px auto 30px;
+    padding: 0;
   }
+  
   
   .joinus .projectItem {
     border-radius: 15px;
