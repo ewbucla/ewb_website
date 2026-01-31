@@ -2,6 +2,7 @@
 import Uganda from "../Media/UgandaProjectPic.JPG";
 import Ethiopia from "../Media/EthiopiaProjectPic.JPG";
 import ResearchProject from "../Media/ResearchProjectPicTemp.png";
+import Ecuador from "../Media/EcuadorProjectPic.png";
 
 export const EWBList = [
   
@@ -21,12 +22,19 @@ export const EWBList = [
     description:
       "Increase water access through the construction of latrines, a water tank and a digital library",
   },
-  
+
   {
     id: "research-project",
     name: "Research Project",
     image: ResearchProject,
-    meetingTimes: "Thursday 6-7pm",
+    meetingTimes: "Mondays 6-7pm",
     description: "Fire Sensing IoT Technology Development for Active Disaster Monitoring."
+  },
+  {
+    id: "ecuador",
+    name: "Ecuador",
+    image: Ecuador,
+    meetingTimes: "Thursdays 6-7pm",
+    description: "Enhancing water catchment, distribution, and chlorination infrastructure to improve access to safe, high-quality water in San Pedro de Cachihuayco, Ecuador."
   },
 ];
