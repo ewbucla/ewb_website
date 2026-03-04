@@ -1,6 +1,5 @@
 import React from 'react'
-import { NepalBoard } from '../Helpers/NepalBoard.js';
-import ProjectItem from '../Components/ProjectItem';
+
 import "../CSS/Nepal.css";
 import { useEffect } from "react";
 
@@ -13,22 +12,6 @@ function Nepal() {
           <div className="nepalOverlay"></div>
           <div className="nepalTitle">Nepal</div>
           <div className="nepalTitle2">Food Sustainability & Education</div>
-        </div>
-        <h1 className="sectionTitles">Project Leads</h1>
-        <div className="BoardList">
-          {NepalBoard.map((projectItem, key) => {
-            return (
-            <div className="Boardmember" key={key} to={`/projects/${projectItem.id}`}>
-            <ProjectItem
-            key={key}
-            image={projectItem.image}
-            name={projectItem.name}
-            description={projectItem.description} 
-            major={projectItem.major}
-            />
-            </div>
-            );
-          })}
         </div>
         <h1 className="sectionTitles">About the Project</h1>
         <p className="sectionParagraphs">The Nepal Farmhouse Project will be building an industrial-sized chicken farm (1000 square feet) to provide income and financial sustainability for the Freedom School. The Freedom School in rural Nepal prevents human trafficking by providing education to girls and children at high-risk. The chicken farm will provide extra nutrition for students, food security/sovereignty for the community, and income for local survivors and women operating the school.</p>

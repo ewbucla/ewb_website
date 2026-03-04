@@ -14,22 +14,7 @@ function Colombia() {
           <div className="colombiaTitle">Colombia</div>
           <div className="colombiaTitle2">Sanitation, Education & Development</div>
         </div>
-        <h1 className="mainTitle">Project Leads</h1>
-        <div className="BoardList">
-          {ColombiaBoard.map((projectItem, key) => {
-            return (
-            <div className="Boardmember" key={key} to={`/projects/${projectItem.id}`}>
-            <ProjectItem
-            key={key}
-            image={projectItem.image}
-            name={projectItem.name}
-            description={projectItem.description} 
-            major={projectItem.major}
-            />
-            </div>
-            );
-          })}
-        </div>
+
         <h1 className="sectionTitles">About the Project</h1>
         <p className="sectionParagraphs">The Colombia project consists of building 3 biofactories in the localities of Caqueta, Planadas, and Armenia which will each serve around 100 community members. We will be working with the SoyDoy Foundation, whose mission is to generate systemic and sustainable changes to transform food systems.</p>
         <h1 className="sectionTitles">About Colombia</h1>
