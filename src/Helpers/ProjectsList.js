@@ -49,7 +49,7 @@ export const ProjectsList = [
         name: "Research Project",
         image: ResearchProject,
         meetingTimes: "Monday 6-7pm",
-        description: "Enhance farming accessibility at Huerta del Valle through ADA garden beds"
+        description: "Fire Sensing IoT Technology Development for Active Disaster Monitoring"
     },
     {
         id: "ecuador",
