@@ -3,6 +3,7 @@ import Uganda from "../Media/UgandaProjectPic.JPG";
 import Ethiopia from "../Media/EthiopiaProjectPic.JPG";
 import ResearchProject from "../Media/ResearchProjectPicTemp.png";
 import Ecuador from "../Media/EcuadorProjectPic.png";
+import EWBLogo from "../Media/UCLAEWBLogo.png";
 
 export const EWBList = [
   
@@ -40,8 +41,7 @@ export const EWBList = [
   {
     id: "MidCityGarden",
     name: "Mid City Garden",
-    image: null,
-    status: "wip",
+    image: EWBLogo,
     meetingTimes: "Thursdays 5-6pm",
     description: "New Project Coming Soon."
   }
