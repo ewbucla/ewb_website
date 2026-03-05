@@ -1,6 +1,5 @@
-import React from 'react';
+import React from 'react'
 import { MidCityGardenBoard } from '../Helpers/MidCityBoard.js';
-
 import ProjectItem from '../Components/ProjectItem';
 import "../CSS/MidCityGarden.css";
 import { useEffect } from "react"; 
@@ -13,11 +12,11 @@ function MidCityGarden() {
             <div className="MidCityGardenTitleSection">
                 <div className = "MidCityGardenOverlay"></div>
                 <div className="MidCityGardenTitle">MidCityGarden</div>
-                <div className="MidCityGardenTitle2">"Work in progress"</div>
+                <div className="MidCityGardenTitle2">"New Project Coming Soon."</div>
             </div>
             <h1 className="sectionTitles">Project Leads</h1>
             <div className="BoardList">
-                {MidCityGarden.map((projectItem, key) => {
+                {MidCityGardenBoard.map((projectItem, key) => {
                     return (
                     <div className="Boardmember" key={key} to={`/projects/${projectItem.id}`}>
                     <ProjectItem
