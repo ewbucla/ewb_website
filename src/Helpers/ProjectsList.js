@@ -59,6 +59,7 @@ export const ProjectsList = [
     {
         id: "MidCityGarden",
         name: "Mid City Garden",
+        status: "wip",
         meetingTimes: "Thursday 5-6pm",
         description: "Work in progress"
     }
