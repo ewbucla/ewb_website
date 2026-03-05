@@ -1,5 +1,5 @@
 import React from 'react'
-import { MidCityGardenBoard } from '../Helpers/MidCityBoard.js';
+import { MidCityGardenBoard } from '../Helpers/MidCityBoard';
 import ProjectItem from '../Components/ProjectItem';
 import "../CSS/MidCityGarden.css";
 import { useEffect } from "react"; 
