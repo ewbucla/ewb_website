@@ -16,17 +16,7 @@ function MidCityGarden() {
             </div>
             <h1 className="sectionTitles">Project Leads</h1>
             <div className="BoardList">
-                {MidCityGardenBoard.map((projectItem, key) => {
-                    return (
-                    <div className="Boardmember" key={key} to={`/projects/${projectItem.id}`}>
-                    <ProjectItem
-                    key={key}
-                    image={projectItem.image}
-                    name={projectItem.name}
-                    />
-                    </div>
-                    );
-                })}
+                
                 </div>
 
 
