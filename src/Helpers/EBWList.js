@@ -32,4 +32,11 @@ export const EBWList = [
         meetingTimes: "Thursday 6-7 pm",
         description: "Enhancing water catchment, distribution, and chlorination infrastructure to improve access to safe, high-quality water in San Pedro de Cachihuayco, Ecuador"
     },
+    {
+        id: "MidCityGarden",
+        name: "Mid City Garden",
+        image: null,
+        meetingTimes: "Thursday 5-6 pm",
+        descrption: null
+    },
 ]
