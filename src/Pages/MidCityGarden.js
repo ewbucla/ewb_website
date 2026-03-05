@@ -23,8 +23,6 @@ function MidCityGarden() {
                     key={key}
                     image={projectItem.image}
                     name={projectItem.name}
-                    description={projectItem.description}
-                    major={projectItem.major}
                     />
                     </div>
                     );
