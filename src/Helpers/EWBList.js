@@ -41,6 +41,7 @@ export const EWBList = [
     id: "MidCityGarden",
     name: "Mid City Garden",
     image: null,
+    status: "wip",
     meetingTimes: "Thursdays 5-6pm",
     description: "New Project Coming Soon."
   }
