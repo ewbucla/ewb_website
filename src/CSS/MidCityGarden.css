@@ -12,18 +12,6 @@
     overflow: hidden;  
 }
 
-.MidCityGardenTitleSection::before {
-    content: "New Project Coming Soon";
-    position: relative;
-    font-size: 120px;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.05);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    white-space: nowrap;
-}
-
 .MidCityGardenOverlayv{
     position: absolute;
     top: 0; 
