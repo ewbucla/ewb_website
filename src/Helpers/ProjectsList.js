@@ -3,6 +3,7 @@ import Ethiopia from "../Media/EthiopiaProjectPic.JPG";
 import Colombia from "../Media/ColombiaProject.png";
 import Nepal from "../Media/NepalProject.jpg";
 import InlandEmpire from "../Media/InlandEmpireProjectPic.jpeg"
+import ResearchProject from "../Media/ResearchProjectPicTemp.png"
 import Ecuador from "../Media/EcuadorProjectPic.png"
 import EWBLogo from "../Media/UCLAEWBLogo.png"
 
@@ -46,7 +47,7 @@ export const ProjectsList = [
     {
         id: "research-project",
         name: "Research Project",
-        image: InlandEmpire,
+        image: ResearchProject,
         meetingTimes: "Monday 6-7pm",
         description: "Enhance farming accessibility at Huerta del Valle through ADA garden beds"
     },
