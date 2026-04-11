@@ -3,7 +3,7 @@ import Uganda from "../Media/UgandaProjectPic.JPG";
 import Ethiopia from "../Media/EthiopiaProjectPic.JPG";
 import ResearchProject from "../Media/ResearchProjectPicTemp.png";
 import Ecuador from "../Media/EcuadorProjectPic.png";
-import EWBLogo from "../Media/UCLAEWBLogo.png";
+import MidCity from "../Media/MidCity.png";
 
 export const EWBList = [
   
@@ -41,8 +41,8 @@ export const EWBList = [
   {
     id: "MidCityGarden",
     name: "Mid City Garden",
-    image: EWBLogo,
+    image: MidCity,
     meetingTimes: "Thursdays 5-6pm",
-    description: "New Project Coming Soon."
+    description: "A climate resilience initiative creating safe, culturally rooted urban landscapes."
   }
 ];

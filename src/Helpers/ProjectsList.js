@@ -5,7 +5,7 @@ import Nepal from "../Media/NepalProject.jpg";
 import InlandEmpire from "../Media/InlandEmpireProjectPic.jpeg"
 import ResearchProject from "../Media/ResearchProjectPicTemp.png"
 import Ecuador from "../Media/EcuadorProjectPic.png"
-import EWBLogo from "../Media/UCLAEWBLogo.png"
+import MidCity from "../Media/MidCity.png"
 
 export const ProjectsList = [
     
@@ -61,8 +61,8 @@ export const ProjectsList = [
     {
         id: "MidCityGarden",
         name: "Mid City Garden",
-        image: EWBLogo,
+        image: MidCity,
         meetingTimes: "Thursday 5-6pm",
-        description: "New Project Coming Soon."
+        description: "A climate resilience initiative creating safe, culturally rooted urban landscapes."
     }
 ]

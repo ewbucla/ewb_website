@@ -4,7 +4,7 @@ import ProjectItem from '../Components/ProjectItem';
 import "../CSS/ResearchProject.css";
 import { useEffect } from "react";
 
-function Uganda() {
+function ResearchProject() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -47,4 +47,4 @@ function Uganda() {
   );
 }
 
-export default Uganda;
+export default ResearchProject;

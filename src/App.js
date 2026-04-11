@@ -17,6 +17,7 @@ import Colombia from "./Pages/Colombia.js";
 import InlandEmpire from "./Pages/InlandEmpire.js";
 import ResearchProject from "./Pages/ResearchProject.js";
 import Ecuador from "./Pages/Ecuador.js";
+import MidCityGarden from "./Pages/MidCityGarden.js";
 import {BrowserRouter as Router, Route,Routes } from "react-router-dom";
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
         <Route path='/projects/guatemala' exact element={<Guatemala />} />
         <Route path='/projects/thailand' exact element={<Thailand />} />
         <Route path='/projects/ecuador' exact element={<Ecuador />} /> 
+        <Route path='/projects/midcitygarden' exact element={< MidCityGarden />} /> 
         <Route path='/aboutus' exact element={<AboutUs />} />
       </Routes>
       <Footer />
