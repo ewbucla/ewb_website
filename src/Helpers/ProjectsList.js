@@ -3,7 +3,9 @@ import Ethiopia from "../Media/EthiopiaProjectPic.JPG";
 import Colombia from "../Media/ColombiaProject.png";
 import Nepal from "../Media/NepalProject.jpg";
 import InlandEmpire from "../Media/InlandEmpireProjectPic.jpeg"
+import ResearchProject from "../Media/ResearchProjectPicTemp.png"
 import Ecuador from "../Media/EcuadorProjectPic.png"
+import EWBLogo from "../Media/UCLAEWBLogo.png"
 
 export const ProjectsList = [
     
@@ -45,9 +47,9 @@ export const ProjectsList = [
     {
         id: "research-project",
         name: "Research Project",
-        image: InlandEmpire,
+        image: ResearchProject,
         meetingTimes: "Monday 6-7pm",
-        description: "Enhance farming accessibility at Huerta del Valle through ADA garden beds"
+        description: "Fire Sensing IoT Technology Development for Active Disaster Monitoring"
     },
     {
         id: "ecuador",
@@ -56,4 +58,11 @@ export const ProjectsList = [
         meetingTimes: "Thursday 6-7pm",
         description: "Enhancing water catchment, distribution, and chlorination infrastructure to improve access to safe, high-quality water in San Pedro de Cachihuayco, Ecuador"
     },
+    {
+        id: "MidCityGarden",
+        name: "Mid City Garden",
+        image: EWBLogo,
+        meetingTimes: "Thursday 5-6pm",
+        description: "New Project Coming Soon."
+    }
 ]

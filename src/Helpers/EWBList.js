@@ -3,6 +3,7 @@ import Uganda from "../Media/UgandaProjectPic.JPG";
 import Ethiopia from "../Media/EthiopiaProjectPic.JPG";
 import ResearchProject from "../Media/ResearchProjectPicTemp.png";
 import Ecuador from "../Media/EcuadorProjectPic.png";
+import EWBLogo from "../Media/UCLAEWBLogo.png";
 
 export const EWBList = [
   
@@ -37,4 +38,11 @@ export const EWBList = [
     meetingTimes: "Thursdays 6-7pm",
     description: "Enhancing water catchment, distribution, and chlorination infrastructure to improve access to safe, high-quality water in San Pedro de Cachihuayco, Ecuador."
   },
+  {
+    id: "MidCityGarden",
+    name: "Mid City Garden",
+    image: EWBLogo,
+    meetingTimes: "Thursdays 5-6pm",
+    description: "New Project Coming Soon."
+  }
 ];
