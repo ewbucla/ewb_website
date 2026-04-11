@@ -35,7 +35,7 @@ export const ProjectsList = [
         name: "Ecuador",
         image: Ecuador,
         meetingTimes: "Thursdays 6-7pm",
-        description: "Enhancing water catchment, distribution, and chlorination infrastructure to improve access to safe, high-quality water in San Pedro de Cachihuayco, Ecuador"
+        description: "Improving access to safe, high-quality water in San Pedro de Cachihuayco, Ecuador"
     },
     {
         id: "MidCityGarden",
