@@ -15,7 +15,7 @@ function Footer() {
         <Link to="https://www.facebook.com/ewbucla">
           <FacebookIcon />
         </Link>
-        <Link to="https://www.linkedin.com/in/ewb-ucla-0b933a277/">
+        <Link to="https://www.linkedin.com/company/ewb-ucla/">
           <LinkedInIcon />
         </Link>
       </div>

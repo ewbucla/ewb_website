@@ -13,7 +13,7 @@ function ResearchProject() {
       <div className="researchProjectTitleSection">
         <div className="researchProjectOverlay"></div>
         <div className="researchProjectTitle">Fire Perimeter Research Project</div>
-        <div className="ugandaTitle2"> Fire-Sensing IoT for Disaster Monitoring   </div> 
+        <div className="researchProjectTitle2"> Fire-Sensing IoT for Disaster Monitoring   </div> 
       </div>
       <h1 className="sectionTitles">Project Leads</h1>
       <div className="BoardList">

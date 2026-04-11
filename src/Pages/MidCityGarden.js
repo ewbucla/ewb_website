@@ -1,7 +1,7 @@
 import React from 'react'
 import { MidCityBoard } from '../Helpers/MidCityBoard';
 import ProjectItem from '../Components/ProjectItem';
-import "../CSS/ResearchProject.css";
+import "../CSS/MidCity.css";
 import { useEffect } from "react";
 
 function Uganda() {
@@ -9,11 +9,11 @@ function Uganda() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="researchProject">
-      <div className="researchProjectTitleSection">
-        <div className="researchProjectOverlay"></div>
-        <div className="researchProjectTitle">Mid City Garden Project</div>
-        <div className="ugandaTitle2"> Urban Garden for Ecological Restoration  </div> 
+    <div className="midCity">
+      <div className="midCityTitleSection">
+        <div className="midCityOverlay"></div>
+        <div className="midCityTitle">Mid City Garden Project</div>
+        <div className="midCityTitle2"> Urban Garden for Ecological Restoration  </div> 
       </div>
       <h1 className="sectionTitles">Project Leads</h1>
       <div className="BoardList">
