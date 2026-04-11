@@ -1,17 +1,21 @@
+import SamanthaHeadshot from '../Media/SamanthaHeadshot.png';
+import AlexaHeadshot from '../Media/AlexaHeadshot.png';
 
+export const MidCityBoard = [
+  {
+    id: "samantha",
+    name: "Samantha",
+    image: SamanthaHeadshot,
+    description: "4th Year",
+    major: "Civil Engineering",
+  },
 
-export const MidCityGardenBoard = [
-    {
-     id: null,
-     name: null,
-     image: null,
-     description: null,
-     major: null,
-    },
-    {
-     id: null,
-     name: null,
-     image: null,
-     description: null
-    },
+  {
+    id: "alexa",
+    name: "Alexa",
+    image: AlexaHeadshot,
+    description: "2nd Year",
+    major: "Civil Engineering",
+  },
+
 ];
