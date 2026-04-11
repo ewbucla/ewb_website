@@ -14,7 +14,7 @@ function InlandEmpire() {
           <div className="inlandEmpireTitle">Inland Empire</div>
           <div className="inlandEmpireTitle2">Agriculture Sustainability</div>
         </div>
-        <h1 className="sectionTitles">Project Managers</h1>
+        {/* <h1 className="sectionTitles">Project Managers</h1>
         <div className="BoardList">
           {InlandEmpireBoard.map((projectItem, key) => {
             return (
@@ -29,7 +29,7 @@ function InlandEmpire() {
             </div>
             );
           })}
-        </div>
+        </div> */}
         <h1 className="sectionTitles">About the Project</h1>
         <p className="sectionParagraphs">The ADA accessible garden beds we are designing and constructing will sit on either flank of the entrance of Huerta del Valle. These garden beds will allow members of the community who have mobility issues to engage with the main goal of growing fresh produce for the community. </p>
         <p className="sectionParagraphs">Additionally, we are working on managing and redesigning the entire site plan of the community to clear any overlap between the demarcations of the various projects taking place. In doing so, we hope to foster a better environment for everyone to become more educated on gardening and to have better access to healthy, organic produce.</p>
