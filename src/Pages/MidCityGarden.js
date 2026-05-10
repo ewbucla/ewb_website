@@ -37,7 +37,7 @@ function Uganda() {
       </div>
       <h1 className="sectionTitles">About the Project</h1>
       <p className="sectionParagraphs">
-       TeaPot Gardens is a climate resilience initiative located in Mid City, Los Angeles. By modernizing the ancient tradition of Paradise Gardens, we are transforming an urban space into a sanctuary centered on cultural connection and environmental safety. Supported by the LA Repair Grant, our mission is to mitigate urban environmental risks like soil contaminants and dust inhalation through innovative landscape design and hyperaccumulator plants that naturally stabilize the soil. This project serves as a model for how community-driven green spaces can protect and nourish urban populations.
+       TeaPot Gardens is a climate resilience initiative located in West Adams, Los Angeles. By modernizing the ancient tradition of Paradise Gardens, we are transforming an urban space into a sanctuary centered on cultural connection and environmental safety. Supported by the LA Repair Grant, our mission is to mitigate urban environmental risks like soil contaminants and dust inhalation through innovative landscape design and hyperaccumulator plants that naturally stabilize the soil. This project serves as a model for how community-driven green spaces can protect and nourish urban populations.
     </p>
       <h1 className="sectionTitles">About the Community</h1>
       <p className = "sectionParagraphs">
