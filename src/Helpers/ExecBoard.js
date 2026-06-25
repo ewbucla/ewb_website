@@ -30,8 +30,8 @@ import JasmineHeadshot from "../Media/26-27_Board/JuliaHeadshot.png"
 /*PHOTOS FOR CURRENT EXTERNAL BOARD MEMBERS */
 import DanielaHeadshot from "../Media/26-27_Board/DanielaHeadshot.png"
 import JordanHeadshot from "../Media/JHerbstHeadshot.png"
-import AnjalieHeadshot from "../Media/AnjalieHeadshot.png"
-import AashaHeadshot from "../Media/26-27_Board/AashaHeadshot.png"
+import AnjalieHeadshot from "../Media/26-27_Board/AnjalieHeadshot.png"
+import AashaHeadshot from "../Media/26-27_Board/AashaHeadshot.jpeg"
 import SriHeadshot from "../Media/SriHeadshot.jpeg"
     /*SRI HEADSHOT AND INFO MISSING  */
 
