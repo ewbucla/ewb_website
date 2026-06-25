@@ -4,6 +4,7 @@ function ProjectItem({id, image, name, position, major, meetingTimes, descriptio
   const divClick = () => {  // incase ever need to add on click feature
     console.log("you just clicked");
   };
+  
   return (
     <div className="projectItem" onClick={divClick}>
       <div className="image" style={{ backgroundImage: `url(${image})`}}>
