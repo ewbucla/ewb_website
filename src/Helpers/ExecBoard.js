@@ -254,7 +254,7 @@ export const ExecBoard = [
     {
         id: "belen",
         name: "Belen",
-        image: None,
+        image: "",
         description: "3rd Year",
         major: "Physics", 
         position: "Fundraising Chair - External", 
