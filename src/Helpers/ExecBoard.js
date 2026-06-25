@@ -132,7 +132,7 @@ export const ExecBoard = [
         image: PolaHeadshot,
         description: "3rd Year",
         major: "Physics",
-        positon: "Socials Co-Chair",
+        position: "Socials Co-Chair",
         type: "internal"
     },
     
