@@ -60,13 +60,13 @@
     padding-bottom: 10px;
     font-size: 50px;
     text-emphasis-style: open;
-    text-emphasis-color: rgba(16, 143, 216, 1);
+   /* text-emphasis-color: rgba(16, 143, 216, 1);*/
   }
 
   .aboutus .sectionTitles{
     font-weight: 600;
     font-family:'Gill Sans';
-    color: rgb(52, 107, 235);
+    /* color: rgb(52, 107, 235);*/ 
   }
   
   .aboutus .sectionParagraphs{
@@ -110,9 +110,9 @@
     .aboutus .projectItem {
       border-radius: 15px;
       width: 220px;
-      height: 380px;
+      height: 400px;
       margin: 15px;
-      box-shadow: 0px 4px 6px rgb(3, 128, 252);
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
       /*box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);*/
       background-color: white;
     }
@@ -125,6 +125,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      padding-bottom: 5px;
     }
     
   
@@ -134,6 +135,7 @@
       text-decoration: none;
       color: black;
       font-size: 32px;
+      padding-right: 16px;
     }
 
     .aboutus .projectItem h2 {
@@ -141,6 +143,7 @@
       text-decoration: none;
       color:  rgba(16, 143, 216, 1);
       font-size: 15px;
+      padding-right: 16px;
     }
     .aboutus .projectItem p {
       margin-left: 20px;
@@ -149,6 +152,7 @@
       margin-bottom: 5px;
       margin-top: 0;
       font-size: 15px;
+      padding-right: 16px;
     }
 
     @media only screen and (max-width: 1000px) {
@@ -260,7 +264,7 @@
       .aboutus .projectItem h2 {
         margin-left: 20px;
         text-decoration: none;
-        color:  rgba(16, 143, 216, 1);
+       /* color:  rgba(16, 143, 216, 1);*/
         font-size: 11.25px;
       }
       .aboutus .projectItem p {

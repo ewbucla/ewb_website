@@ -5,9 +5,9 @@ import "../CSS/AboutUs.css";
 
 function AboutUs() {
   const execBoard = ExecBoard.filter(member => member.type === "executive");
-  const internalBoard = ExecBoard.filter(member => member.type === "internal");
-  const externalBoard = ExecBoard.filter(member => member.type === "external");
-  const fundraisingBoard = ExecBoard.filter(member => member.type === "fundraising");
+  const generalBoard = ExecBoard.filter(member => member.type === "general");
+  /* const externalBoard = ExecBoard.filter(member => member.type === "external");
+  const fundraisingBoard = ExecBoard.filter(member => member.type === "fundraising");  */
 
   return (
     <div className="aboutus">
@@ -48,9 +48,9 @@ function AboutUs() {
       <br></br>
       <br></br>
 
-      <h2>Internal Board</h2>
+      <h2>General Board</h2>
       <div className="BoardList">
-        {internalBoard.map((projectItem, key) => (
+        {generalBoard.map((projectItem, key) => (
           <div className="Boardmember" key={key}>
             <ProjectItem
               image={projectItem.image}
@@ -65,7 +65,7 @@ function AboutUs() {
       <br></br>
       <br></br>
 
-      <h2>External Board</h2>
+     {/*  <h2>External Board</h2>
       <div className="BoardList">
         {externalBoard.map((projectItem, key) => (
           <div className="Boardmember" key={key}>
@@ -95,7 +95,8 @@ function AboutUs() {
               />
             </div>
         ))}
-      </div>
+      </div> */}
+      
 
       <br></br>
       <br></br>
