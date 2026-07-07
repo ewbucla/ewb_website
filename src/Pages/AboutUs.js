@@ -4,13 +4,21 @@ import ProjectItem from "../Components/ProjectItem";
 import "../CSS/AboutUs.css";
 
 function AboutUs() {
+  const execBoard = ExecBoard.filter(member => member.type === "executive");
+  const internalBoard = ExecBoard.filter(member => member.type === "internal");
+  const externalBoard = ExecBoard.filter(member => member.type === "external");
+  const fundraisingBoard = ExecBoard.filter(member => member.type === "fundraising");
+
   return (
     <div className="aboutus">
       <div className="aboutusTitleSection">
         <div className="aboutusOverlay"></div>
         <div className="aboutusTitle">About Us</div>
       </div>
+      <br></br>
+    
       <h1 className="sectionTitles">Who We Are</h1>
+
       <p className="sectionParagraphs">
         The UCLA student chapter of Engineers Without Borders (EWB) was founded
         in 2006 by a group of diverse students who were dedicated to using their
@@ -20,26 +28,78 @@ function AboutUs() {
         Ethiopia, Nepal, Colombia, and Inland Empire, CA.
       </p>
       <h1 className="mainTitle">Meet the Board</h1>
+
+
+
+      <h2>Executive Board</h2>
       <div className="BoardList">
-        {ExecBoard.map((projectItem, key) => {
-          return (
-            <div
-              className="Boardmember"
-              key={key}
-              to={`/projects/${projectItem.id}`}
-            >
-              <ProjectItem
-                key={key}
-                image={projectItem.image}
-                name={projectItem.name}
-                position={projectItem.position}
-                description={projectItem.description}
-                major={projectItem.major}
+        {execBoard.map((projectItem, key) => (
+          <div className="Boardmember" key={key}>
+            <ProjectItem
+              image={projectItem.image}
+              name={projectItem.name}
+              position={projectItem.position}
+              description={projectItem.description}
+              major={projectItem.major}
+            />
+          </div>
+        ))}
+      </div>
+      <br></br>
+      <br></br>
+
+      <h2>Internal Board</h2>
+      <div className="BoardList">
+        {internalBoard.map((projectItem, key) => (
+          <div className="Boardmember" key={key}>
+            <ProjectItem
+              image={projectItem.image}
+              name={projectItem.name}
+              position={projectItem.position}
+              description={projectItem.description}
+              major={projectItem.major}
+            />
+          </div>
+        ))}
+      </div>
+      <br></br>
+      <br></br>
+
+      <h2>External Board</h2>
+      <div className="BoardList">
+        {externalBoard.map((projectItem, key) => (
+          <div className="Boardmember" key={key}>
+            <ProjectItem
+              image={projectItem.image}
+              name={projectItem.name}
+              position={projectItem.position}
+              description={projectItem.description}
+              major={projectItem.major}
               />
             </div>
-          );
-        })}
+        ))}
       </div>
+      <br></br>
+      <br></br>
+
+      <h2>Fundraising Board</h2>
+      <div className="BoardList">
+        {fundraisingBoard.map((projectItem, key) => (
+          <div className="Boardmember" key={key}>
+            <ProjectItem
+              image={projectItem.image}
+              name={projectItem.name}
+              position={projectItem.position}
+              description={projectItem.description}
+              major={projectItem.major}
+              />
+            </div>
+        ))}
+      </div>
+
+      <br></br>
+      <br></br>
+      <br></br>
       <h1 className="sectionTitles">MISSION</h1>
       <p className="sectionParagraphs">
         Our mission is to support community driven development programs
@@ -64,3 +124,7 @@ function AboutUs() {
 }
 
 export default AboutUs;
+
+
+//BLACK LINE:
+  //<hr style={{height:"3px",  width:"1230px", backgroundColor: "black"}} />
