@@ -18,6 +18,7 @@ import AlexisHeadshot from "../Media/26-27_Board/AlexisHeadshot.png"
 import ValeriaHeadshot from "../Media/ValeriaHeadshot.png"
 import RaelaHeadshot from "../Media/RaelaHeadshot.png"
 import AnavHeadshot from "../Media/26-27_Board/AnavHeadshot.png"
+import BelenHeadshot from "../Media/26-27_Board/BelenHeadshot.png"
     /*RAELA HEADSHOT AND INFO MISSING */
 
 
@@ -57,9 +58,19 @@ export const ExecBoard = [
         id: "katherine", 
         name: "Katherine",
         image: KatherineHeadshot,
-        description: "2nd Year",
+        description: "3rd Year",
         major: "Biophysics",
         position: "Vice President",
+        type: "executive"
+    },
+
+    {
+        id: "raela", 
+        name: "Raela",
+        image: RaelaHeadshot, 
+        description: "4th Year", 
+        major: "Civil Engineering", 
+        position: "Director of Internal Affairs", 
         type: "executive"
     },
 
@@ -67,7 +78,7 @@ export const ExecBoard = [
         id: "alexis",
         name: "Alexis",
         image: AlexisHeadshot,
-        description: "3rd Year",
+        description: "4th Year",
         major: "Chemical and Biomolecular Engineering",
         position: "Director of External Affairs",
         type: "executive"
@@ -77,7 +88,7 @@ export const ExecBoard = [
         id: "kassandra",
         name: "Kassandra",
         image: KassandraHeadshot,
-        description: "3rd Year",
+        description: "4th Year",
         major: "Civil Engineering",
         position: "Director of Financial Affairs",
         type: "executive"
@@ -95,35 +106,88 @@ export const ExecBoard = [
     },
     */
 
-    {
-        id: "raela", 
-        name: "Raela",
-        image: RaelaHeadshot, 
-        description: "3rd Year", 
-        major: "Civil Engineering", 
-        position: "Director of Internal Affairs", 
-        type: "executive"
-    },
+    
 
     {
         id: "anav",
         name: "Anav",
         image: AnavHeadshot,
-        description: "1st Year",
+        description: "2nd Year",
         major: "Materials Engineering",
         position: "Project Relations Chair",
         type: "executive"
     }, 
 
-//INTERNAL BOARD MEMBERS
+//General Board
     {
+        id: "vanessa",
+        name: "Vanessa",
+        image: VanessaHeadshot,
+        description: "3rd Year",
+        major: "Mechanical Engineering",
+        position: "Fundraising Chair - Central",
+        type: "general"
+    },
+
+    {
+        id: "aasha",
+        name: "Aasha",
+        image: AashaHeadshot,
+        description: "3rd Year",
+        major: "Applied Math and Civil Engineering",
+        position: "Fundraising Chair - Internal",
+        type: "general"
+    },
+
+     {
+        id: "belen",
+        name: "Belen",
+        image: BelenHeadshot,
+        description: "4th Year",
+        major: "Physics", 
+        position: "Fundraising Chair - External", 
+        type: "general"
+
+    },
+
+    {
+        id: "anjalie",
+        name: "Anjalie",
+        image: AnjalieHeadshot ,
+        description: "2nd Year",
+        major: "Chemical Engineering",
+        position: "Marketing Chair",
+        type: "general"
+    }, 
+
+     {
+        id: "sri",
+        name: "Sri",
+        image: SriHeadshot,
+        description: "3rd Year",
+        major: "Computer Science",
+        position: "Web Development Chair",
+        type: "general"
+    },
+
+    {
+        id: "parker",
+        name: "Parker",
+        image: ParkerHeadshot,
+        description: "4th Year",
+        major: "Aerospace Engineering",
+        position: "Professional Development Chair",
+        type: "general"
+    },
+
+   /* {
         id: "jasmine",
         name: "Jasmine",
         image: JasmineHeadshot,
         description: "4th Year",
         major: "Aerospace Engineering",
         position: "Historian",
-        type: "internal"
+        type: "general"
     },
 
     {
@@ -133,7 +197,7 @@ export const ExecBoard = [
         description: "3rd Year",
         major: "Physics",
         position: "Socials Co-Chair",
-        type: "internal"
+        type: "general"
     },
     
     {
@@ -143,7 +207,7 @@ export const ExecBoard = [
         description: "N/A", //year? 
         major: "Mechanical Engineering",
         position: "Socials Co-Chair", 
-        type: "internal"
+        type: "general"
     },
 
     {
@@ -153,9 +217,9 @@ export const ExecBoard = [
         description: "N/A", //year? 
         major: "Civil Engineering", 
         position: "Secretary",
-        type: "internal"
+        type: "general"
     },
-
+ */
 
 
 /*EXTERNAL BOARD MEMBERS */
@@ -172,35 +236,11 @@ export const ExecBoard = [
     },
     */
 
-    {
-        id: "sri",
-        name: "Sri",
-        image: SriHeadshot,
-        description: "2nd Year",
-        major: "Computer Science",
-        position: "Web Development Chair",
-        type: "external"
-    },
+   
 
-    {
-        id: "anjalie",
-        name: "Anjalie",
-        image: AnjalieHeadshot ,
-        description: "1st Year",
-        major: "Chemical Engineering",
-        position: "Marketing Chair",
-        type: "external"
-    }, 
+    
 
-    {
-        id: "parker",
-        name: "Parker",
-        image: ParkerHeadshot,
-        description: "3rd Year",
-        major: "Aerospace Engineering",
-        position: "Professional Development Chair",
-        type: "external"
-    },
+    
  
 
     
@@ -231,37 +271,11 @@ export const ExecBoard = [
     },
     */
 
-    {
-        id: "vanessa",
-        name: "Vanessa",
-        image: VanessaHeadshot,
-        description: "2nd Year",
-        major: "Mechanical Engineering",
-        position: "Fundraising Chair - Central",
-        type: "fundraising"
-    },
     
-    {
-        id: "aasha",
-        name: "Aasha",
-        image: AashaHeadshot,
-        description: "2nd Year",
-        major: "Applied Math and Civil Engineering",
-        position: "Fundraising Chair - Internal",
-        type: "fundraising"
-    },
+    
+    
 
-    {
-        id: "belen",
-        name: "Belen",
-        image: "",
-        description: "3rd Year",
-        major: "Physics", 
-        position: "Fundraising Chair - External", 
-        type: "fundraising"
-
-    },
-
+   
 
 ]
 
