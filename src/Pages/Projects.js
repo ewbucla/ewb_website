@@ -1,9 +1,8 @@
+
 import React from "react";
 import { EWBList } from "../Helpers/EWBList";
-import { EBWList } from "../Helpers/EBWList";
 import { OldProjectsList } from "../Helpers/OldProjectsList";
 import ProjectItem from "../Components/ProjectItem";
-import ProjectsBG from "../Media/ProjectsBG.jpg";
 import { Link } from "react-router-dom";
 
 import "../CSS/Projects.css";
