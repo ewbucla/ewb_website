@@ -1,14 +1,10 @@
+
 import Uganda from "../Media/UgandaProjectPic.JPG";
 import Ethiopia from "../Media/EthiopiaProjectPic.JPG";
-import Colombia from "../Media/ColombiaProject.png";
-import Nepal from "../Media/NepalProject.jpg";
-import InlandEmpire from "../Media/InlandEmpireProjectPic.jpeg"
-import ResearchProject from "../Media/ResearchProjectPicTemp.png"
-import Ecuador from "../Media/EcuadorProjectPic.png"
-import MidCity from "../Media/MidCity.png"
+import Ecuador from "../Media/EcuadorProjectPic.png";
+import MidCity from "../Media/MidCity.png";
 
 export const ProjectsList = [
-    
     {
         id: "uganda",
         name: "Uganda",
@@ -24,13 +20,6 @@ export const ProjectsList = [
         description: "Increase water access through the construction of latrines, a water tank and a digital library",
     },
     {
-        id: "research-project",
-        name: "Research Project",
-        image: ResearchProject,
-        meetingTimes: "Mondays 6-7pm",
-        description: "Fire Sensing IoT Technology Development for Active Disaster Monitoring"
-    },
-    {
         id: "ecuador",
         name: "Ecuador",
         image: Ecuador,
@@ -44,4 +33,4 @@ export const ProjectsList = [
         meetingTimes: "Wednesdays 5-6pm",
         description: "A climate resilience initiative creating safe, culturally rooted urban landscapes."
     }
-]
+];

@@ -120,17 +120,23 @@
   }
 
   .old-projects-list .projectLink:nth-child(6) {
-    grid-column: 1 / span 2;
+    grid-column: 1;
     grid-row: 3;
     justify-self: center;
   }
 
   .old-projects-list .projectLink:nth-child(7) {
-    grid-column: 2 / span 2;
+    grid-column: 2;
     grid-row: 3;
     justify-self: center;
   }
 
+  .old-projects-list .projectLink:nth-child(8) {
+    grid-column: 3;
+    grid-row: 3;
+    justify-self: center;
+  }
+  
  .projects .OldProjects {
     padding-top: 30px;
     padding-bottom: 30px;
