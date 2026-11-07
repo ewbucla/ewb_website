@@ -47,7 +47,11 @@ function Uganda() {
       <p className="sectionParagraphs">
         We have completed our foundational phase. After establishing a leadership team and conducting a site visit, we have moved past the initial research of hydrological systems, including atmospheric thermodynamics and runoff management. Most of the funding is already secured via grants, the land is privately owned, and there are no permitting roadblocks, meaning we are officially ready for the design phase.
       </p>
+      <div>
+          <p className="noteAffiliation">This project is not affiliated with EWB-USA.</p>
+      </div>
     </div>
+    
   );
 }
 
