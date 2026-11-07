@@ -43,7 +43,7 @@ function JoinUs() {
       </div>
 
       <div className='button-display'>
-        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeIhzFkpkdqqEvi5gAMj6q7BUgeWu3tRAgUpRomvsV7rSftNQ/viewform">
+        <Link to="https://eepurl.com/ciu5kf">
           <button className="aesthetic-button">Join EWB Mailing List</button>
         </Link>
         <Link to="https://tinyurl.com/uclaewbdiscord">
