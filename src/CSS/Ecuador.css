@@ -391,4 +391,15 @@
         .ecuador .BoardList {
           grid-template-columns: 1fr;
         }
+        .noteAffiliation{
+          margin: 20px;
+        }
       }
+
+   .noteAffiliation{
+    background-color: #5A8CDB;
+    padding: 20px 30px;
+    color: whitesmoke;
+    border-radius: 20px;
+    font-size: 18px;
+   }
